@@ -53,7 +53,7 @@ const servicePackages = [
   },
   {
     id: 2,
-    name: 'XL pakket',
+    name: 'XL Pakket',
     price: 129,
     description: 'Perfect voor hoge kasten & kinderen',
     features: [
@@ -106,11 +106,14 @@ export function PriceCalculator() {
       }
     }
 
-    if (selectedService && serviceOptions[selectedService]) {
-      serviceOptions[selectedService].forEach((item) => {
-        const qty = quantities[item.name] || 0;
-        total += item.price * qty;
-      });
+    if (selectedService) {
+      const serviceItems = serviceOptions[selectedService];
+      if (serviceItems) {
+        serviceItems.forEach((item) => {
+          const qty = quantities[item.name] || 0;
+          total += item.price * qty;
+        });
+      }
     }
 
     return total;
@@ -236,7 +239,7 @@ export function PriceCalculator() {
                     {selectedService} - Details
                   </label>
                   <div className="space-y-3">
-                    {serviceOptions[selectedService].map((item) => (
+                    {serviceOptions[selectedService]?.map((item) => (
                       <div
                         key={item.name}
                         className="flex items-center justify-between p-3 bg-gray-50 rounded-lg"
