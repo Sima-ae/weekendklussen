@@ -332,7 +332,7 @@ export function HomePageContent() {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-              Klaar om te beginnen?
+              Starten met weekend klussen?
             </h2>
             <p className="text-lg mb-8 text-white/90">
               Vraag vrijblijvend een offerte aan. Wij reageren binnen 24-48 uur.

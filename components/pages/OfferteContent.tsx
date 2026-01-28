@@ -5,13 +5,13 @@ import { useState } from 'react';
 import { FileText, CheckCircle, AlertCircle, Loader2 } from 'lucide-react';
 
 const dienstenOpties = [
-  'Badkamer verbouwen',
+  'Badkamer en/of toilet verbouwen',
   'Keukenrenovatie / keuken plaatsen',
-  'Aanbouw / uitbouw / serre',
+  'Aanbouw / uitbouw / schuur / serre',
   'Dakkapel plaatsen',
   'Renovatie / verbouwing',
-  'Onderhoud woning',
-  'Overig',
+  'Onderhoud',
+  'Overige',
 ];
 
 export function OfferteContent() {
@@ -58,51 +58,62 @@ export function OfferteContent() {
 
   if (verzonden) {
     return (
-      <div className="max-w-xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <motion.div
-          initial={{ opacity: 0, scale: 0.96 }}
-          animate={{ opacity: 1, scale: 1 }}
-          className="text-center p-8 bg-green-50 rounded-xl border border-green-200"
-        >
-          <div className="w-14 h-14 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-            <CheckCircle className="text-green-600" size={28} />
-          </div>
-          <h2 className="text-xl font-bold text-gray-900 mb-2">Aanvraag ontvangen</h2>
-          <p className="text-gray-600">
-            Bedankt voor uw aanvraag. Wij nemen binnen 24-48 uur contact met u op voor vrijblijvende
-            offerte zonder verplichtingen. Heeft u spoed? Bel ons voor een snelle reactie.
-          </p>
-        </motion.div>
-      </div>
+      <section className="py-16 sm:py-20 bg-gray-50">
+        <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.96 }}
+            animate={{ opacity: 1, scale: 1 }}
+            className="text-center p-8 sm:p-10 bg-white rounded-xl border border-gray-100 shadow-sm"
+          >
+            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+              <CheckCircle className="text-green-600" size={32} />
+            </div>
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">Aanvraag ontvangen</h2>
+            <p className="text-lg text-gray-600 max-w-xl mx-auto">
+              Bedankt voor uw aanvraag. Wij nemen binnen 24-48 uur contact met u op voor vrijblijvende
+              offerte zonder verplichtingen. Heeft u spoed? Bel ons voor een snelle reactie.
+            </p>
+          </motion.div>
+        </div>
+      </section>
     );
   }
 
   return (
-    <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="text-center mb-12"
-      >
-        <div className="w-14 h-14 bg-brown-100 rounded-xl flex items-center justify-center mx-auto mb-4">
-          <FileText className="text-brown-600" size={28} />
+    <>
+      {/* Hero Section */}
+      <section className="py-12 sm:py-16 bg-white border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center"
+          >
+            <div className="w-16 h-16 bg-brown-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+              <FileText className="text-brown-600" size={32} />
+            </div>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+              Offerte aanvragen
+            </h1>
+            <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
+              Vul het formulier in. Wij reageren binnen 24-48 uur met een vrijblijvende offerte zonder verplichtingen.
+            </p>
+          </motion.div>
         </div>
-        <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-          Offerte aanvragen
-        </h1>
-        <p className="text-lg text-gray-600">
-          Vul het formulier in. Wij reageren binnen 24-48 uur met een vrijblijvende offerte zonder verplichtingen.
-        </p>
-      </motion.div>
+      </section>
 
-      <motion.form
-        initial={{ opacity: 0, y: 24 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.1 }}
-        onSubmit={handleSubmit}
-        className="space-y-5 p-6 sm:p-8 bg-gray-50 rounded-xl border border-gray-100"
-      >
+      {/* Form Section */}
+      <section className="py-16 sm:py-20 bg-gray-50">
+        <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.form
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            onSubmit={handleSubmit}
+            className="space-y-5 p-6 sm:p-8 bg-white rounded-xl border border-gray-100 shadow-sm"
+          >
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
           <div>
             <label htmlFor="naam" className="block text-sm font-medium text-gray-700 mb-1">
@@ -214,6 +225,8 @@ export function OfferteContent() {
           )}
         </button>
       </motion.form>
-    </div>
+        </div>
+      </section>
+    </>
   );
 }

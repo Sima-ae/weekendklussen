@@ -81,88 +81,114 @@ const secties = [
 
 export function DienstenContent() {
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="text-center mb-14"
-      >
-            <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Diensten van Weekend Klussen</h1>
-        <p className="text-lg text-gray-600 mb-4">
-          Weekend Klussen is uw betrouwbare vaklieden en bouwbedrijf in Zuid-Holland. Wij verzorgen een breed scala aan bouw- en renovatiediensten voor particulieren en bedrijven. Van complete woningverbouwing tot specifieke klussen zoals badkamer verbouwen, keukenrenovatie, aanbouw plaatsen en meer.
-        </p>
-        <p className="text-lg text-gray-600">
-          Alle werkzaamheden worden uitgevoerd door ervaren vakmannen met vaste prijzen en garantie. Vraag vrijblijvend een{' '}
-          <Link href="/offerte" className="text-brown-600 font-medium hover:underline">
-            gratis offerte
-          </Link>{' '}
-          aan en ontvang binnen 24-48 uur een duidelijke prijsopgave.
-        </p>
-      </motion.div>
+    <>
+      {/* Hero Section */}
+      <section className="py-12 sm:py-16 bg-white border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center"
+          >
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+              Diensten van Weekend Klussen
+            </h1>
+            <p className="text-lg sm:text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+              Weekend Klussen is uw betrouwbare vaklieden en bouwbedrijf in Zuid-Holland. Wij verzorgen een breed scala aan bouw- en renovatiediensten voor particulieren en bedrijven. Van complete woningverbouwing tot specifieke klussen zoals badkamer verbouwen, keukenrenovatie, aanbouw plaatsen en meer.
+            </p>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Alle werkzaamheden worden uitgevoerd door ervaren vakmannen met vaste prijzen en garantie. Vraag vrijblijvend een{' '}
+              <Link href="/offerte" className="text-brown-600 font-semibold hover:underline">
+                gratis offerte
+              </Link>{' '}
+              aan en ontvang binnen 24-48 uur een duidelijke prijsopgave.
+            </p>
+          </motion.div>
+        </div>
+      </section>
 
-      <div className="space-y-16">
-        {secties.map((s) => {
-          const Icon = s.icon;
-          return (
-            <motion.section
-              key={s.id}
-              id={s.id}
-              initial={{ opacity: 0, y: 24 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
-              className="scroll-mt-24"
+      {/* Services Section */}
+      <section className="py-16 sm:py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="space-y-8">
+            {secties.map((s, index) => {
+              const Icon = s.icon;
+              return (
+                <motion.section
+                  key={s.id}
+                  id={s.id}
+                  initial={{ opacity: 0, y: 24 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  className="scroll-mt-24 bg-white rounded-xl p-6 sm:p-8 border border-gray-100 shadow-sm hover:shadow-md transition-shadow"
+                >
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="w-14 h-14 bg-brown-100 rounded-lg flex items-center justify-center shrink-0">
+                      <Icon className="text-brown-600" size={28} />
+                    </div>
+                    <div className="flex-1">
+                      <h2 className="text-2xl font-bold text-gray-900 mb-2">{s.title}</h2>
+                      <p className="text-gray-600">{s.intro}</p>
+                    </div>
+                  </div>
+                  <ul className="ml-0 sm:ml-18 space-y-2">
+                    {s.items.map((item) => (
+                      <li key={item} className="flex items-start gap-3 text-gray-700">
+                        <span className="w-2 h-2 bg-brown-500 rounded-full mt-2 shrink-0" />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </motion.section>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Additional Services */}
+      <section className="py-16 sm:py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="p-8 bg-gray-50 rounded-xl border border-gray-100"
+          >
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">Overige diensten</h2>
+            <p className="text-gray-600 mb-4">
+              Ook voor sloopwerk, fundering, timmerwerk, metselwerk, tegelwerk, schilderen,
+              stucen, bouwadvies en nog veel meer. Neem contact met ons op voor een vrijblijvende offerte.
+            </p>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-16 sm:py-20 bg-gradient-to-r from-brown-600 to-brown-700 text-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+              Starten met weekend klussen?
+            </h2>
+            <p className="text-lg mb-8 text-white/90">
+              Vraag vrijblijvend een offerte aan. Wij reageren binnen 24-48 uur.
+            </p>
+            <Link
+              href="/offerte"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-brown-600 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors shadow-lg"
             >
-              <div className="flex items-start gap-4 mb-4">
-                <div className="w-12 h-12 bg-brown-100 rounded-lg flex items-center justify-center shrink-0">
-                  <Icon className="text-brown-600" size={24} />
-                </div>
-                <div>
-                  <h2 className="text-2xl font-bold text-gray-900">{s.title}</h2>
-                  <p className="text-gray-600 mt-2">{s.intro}</p>
-                </div>
-              </div>
-              <ul className="ml-0 sm:ml-16 space-y-2">
-                {s.items.map((item) => (
-                  <li key={item} className="flex items-start gap-2 text-gray-700">
-                    <span className="w-1.5 h-1.5 bg-brown-500 rounded-full mt-1.5 shrink-0" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </motion.section>
-          );
-        })}
-      </div>
-
-      <motion.section
-        initial={{ opacity: 0, y: 24 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        className="mt-16 p-6 sm:p-8 bg-gray-50 rounded-xl border border-gray-100"
-      >
-        <h2 className="text-xl font-bold text-gray-900 mb-4">Overige diensten</h2>
-        <p className="text-gray-600 mb-4">
-          Ook voor sloopwerk, fundering, timmerwerk, metselwerk, tegelwerk, schilderen,
-          stucen, bouwadvies en nog veel meer...
-        </p>
-        
-      </motion.section>
-
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        className="mt-14 text-center"
-      >
-        <Link
-          href="/offerte"
-          className="inline-flex items-center gap-2 px-6 py-3 bg-brown-600 text-white rounded-lg font-semibold hover:bg-brown-700 transition-colors"
-        >
-          Gratis offerte aanvragen <ArrowRight size={18} />
-        </Link>
-      </motion.div>
-    </div>
+              Offerte aanvragen <ArrowRight size={20} />
+            </Link>
+          </motion.div>
+        </div>
+      </section>
+    </>
   );
 }

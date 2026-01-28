@@ -1614,6 +1614,11 @@ video {
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+.hover\:shadow-md:hover {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
 .focus\:border-brown-500:focus {
   --tw-border-opacity: 1;
   border-color: rgb(95 56 19 / var(--tw-border-opacity, 1));
@@ -1759,6 +1764,10 @@ video {
     padding: 2rem;
   }
 
+  .sm\:p-10 {
+    padding: 2.5rem;
+  }
+
   .sm\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -1823,6 +1832,11 @@ video {
   .sm\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 @media (min-width: 768px) {
