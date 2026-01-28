@@ -151,7 +151,7 @@ export function PriceCalculator() {
         >
           
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            Snel een indicatie van de kosten
+            Snel een indicatie van de totale kosten
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Transparantie vinden wij belangrijk. Vul uw wensen in en u ziet direct waar u aan toe bent.
