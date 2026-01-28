@@ -20,7 +20,7 @@ export function ContactContent() {
               Neem contact met ons op
             </h1>
             <p className="text-lg sm:text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Heeft u een vraag over verbouwing, renovatie of aanbouw? Of wilt u een vrijblijvende offerte aanvragen? Wij zijn bereikbaar voor al uw bouwvragen en reageren binnen 24 uur op uw bericht.
+              Heeft u een vraag over een klusje, renovatie of een complete totaalverbouwing? Wellicht wilt u direct een vrijblijvende offerte aanvragen?
             </p>
           </motion.div>
         </div>
@@ -63,44 +63,12 @@ export function ContactContent() {
                 <h2 className="text-xl font-bold text-gray-900 mb-2">E-mail</h2>
                 <p className="text-gray-600 mb-3">Stuur een bericht voor offerte of informatie.</p>
                 <p className="text-brown-600 font-semibold text-lg">info@weekend-klussen.nl</p>
-                <p className="text-sm text-gray-500 mt-2">Reactie binnen 24 uur</p>
+                <p className="text-sm text-gray-500 mt-2">Reactie binnen 24-48 uur</p>
               </div>
             </motion.a>
           </div>
 
-          {/* Info Cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12">
-            <motion.div
-              initial={{ opacity: 0, y: 24 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.3 }}
-              className="p-6 bg-white rounded-xl border border-gray-100 shadow-sm"
-            >
-              <div className="flex items-center gap-3 mb-3">
-                <Clock className="text-brown-600" size={24} />
-                <h3 className="font-semibold text-gray-900">Reactietijd</h3>
-              </div>
-              <p className="text-gray-600 text-sm">
-                Wij reageren binnen 24 uur op uw bericht. Voor spoedgevallen kunt u ons direct bellen.
-              </p>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 24 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.4 }}
-              className="p-6 bg-white rounded-xl border border-gray-100 shadow-sm"
-            >
-              <div className="flex items-center gap-3 mb-3">
-                <MapPin className="text-brown-600" size={24} />
-                <h3 className="font-semibold text-gray-900">Servicegebied</h3>
-              </div>
-              <p className="text-gray-600 text-sm">
-                Wij zijn actief in Zuid-Holland en omgeving. Rotterdam, Den Haag, Leiden, Dordrecht en meer.
-              </p>
-            </motion.div>
-          </div>
+          
 
           {/* CTA Section */}
           <motion.div
@@ -110,18 +78,14 @@ export function ContactContent() {
             transition={{ duration: 0.5, delay: 0.5 }}
             className="p-8 bg-gradient-to-r from-brown-600 to-brown-700 rounded-xl text-center text-white"
           >
-            <div className="w-14 h-14 bg-white/20 rounded-lg flex items-center justify-center mx-auto mb-4">
-              <FileText className="text-white" size={28} />
-            </div>
+            
             <h2 className="text-2xl font-bold mb-3">Direct een offerte aanvragen?</h2>
-            <p className="text-white/90 mb-6 max-w-2xl mx-auto">
-              Vul het formulier in en ontvang binnen 24-48 uur een vrijblijvende offerte zonder verplichtingen.
-            </p>
+            
             <Link
               href="/offerte"
               className="inline-flex items-center gap-2 px-8 py-4 bg-white text-brown-600 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors shadow-lg"
             >
-              Offerte aanvragen <ArrowRight size={20} />
+              Klik hier <ArrowRight size={20} />
             </Link>
           </motion.div>
         </div>

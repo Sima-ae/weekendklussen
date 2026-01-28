@@ -53,7 +53,7 @@ const servicePackages = [
   },
   {
     id: 2,
-    name: 'Veiligheidspakket',
+    name: 'XL pakket',
     price: 129,
     description: 'Perfect voor hoge kasten & kinderen',
     features: [
@@ -244,7 +244,7 @@ export function PriceCalculator() {
                         <div className="flex-1">
                           <div className="font-medium text-gray-900">{item.name}</div>
                           <div className="text-sm text-gray-600">
-                            {formatPrice(item.price)} {item.unit && `per ${item.unit}`}
+                            {formatPrice(item.price)} {item.unit && (item.unit.startsWith('per ') ? item.unit : `per ${item.unit}`)}
                           </div>
                         </div>
                         <input

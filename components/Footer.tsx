@@ -71,7 +71,7 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-gray-300 mt-auto" role="contentinfo">
+    <footer className="text-gray-300 mt-auto" style={{ backgroundColor: '#1f1f1f' }} role="contentinfo">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10">
           <div className="sm:col-span-2 lg:col-span-1 text-center sm:text-left">
@@ -90,8 +90,7 @@ export function Footer() {
               </div>
             </Link>
             <p className="text-sm text-gray-400 mb-4">
-              Weekend Klussen is voornamelijk actief in de regio Zuid-Holland. Uw vaklieden voor verbouwing,
-              renovatie, aanbouw, badkamer, keuken, toilet en meer. Vakmannen met vaste prijzen en garantie.
+              Uw vaklieden voor verbouwing, renovatie, aanbouw, badkamer, keuken, toilet en meer. Weekend Klussen is actief in heel Nederland, maar voornamelijk in de regio Zuid-Holland.
             </p>
             
           </div>
@@ -140,7 +139,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-8 sm:mt-10 pt-8 sm:pt-10 border-t border-gray-800 text-center">
+        <div className="mt-8 sm:mt-10 pt-8 sm:pt-10 border-t text-center" style={{ borderColor: '#2a2a2a' }}>
           <h3 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">
             Werkgebied
           </h3>
@@ -149,7 +148,8 @@ export function Footer() {
             {werkgebied.map((plaats) => (
               <span
                 key={plaats}
-                className="text-xs px-2 py-0.5 bg-gray-800 rounded text-gray-400"
+                className="text-xs px-2 py-0.5 rounded text-gray-400"
+                style={{ backgroundColor: '#2a2a2a' }}
               >
                 {plaats}
               </span>
@@ -157,7 +157,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-8 sm:mt-10 pt-6 sm:pt-8 text-center">
+        <div className="border-t mt-8 sm:mt-10 pt-6 sm:pt-8 text-center" style={{ borderColor: '#2a2a2a' }}>
           <p className="text-sm text-gray-500">
             <b>Weekend Klussen &copy; {currentYear}</b> <br />Powered by: <i><Link href="https://fix-web.site" className="text-gray-500 hover:text-white transition-colors" target="_blank">FIX-WEB.site</Link></i>
           </p>
