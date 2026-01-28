@@ -149,9 +149,7 @@ export function PriceCalculator() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-brown-100 rounded-xl mb-4">
-            <Calculator className="text-brown-600" size={32} />
-          </div>
+          
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
             Snel een indicatie van de kosten
           </h2>

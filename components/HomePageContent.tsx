@@ -70,6 +70,12 @@ const voordelen = [
 export function HomePageContent() {
   return (
     <>
+
+{/* Price Calculator */}
+<div id="calculator">
+        <PriceCalculator />
+      </div>
+
       {/* Hero CTA Section */}
       <section className="py-12 sm:py-16 bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -116,6 +122,8 @@ export function HomePageContent() {
           </motion.div>
         </div>
       </section>
+
+
 
       {/* Benefits Section */}
       <section className="py-12 sm:py-16 bg-gray-50">
@@ -191,10 +199,7 @@ export function HomePageContent() {
         </div>
       </section>
 
-      {/* Price Calculator */}
-      <div id="calculator">
-        <PriceCalculator />
-      </div>
+      
 
       {/* Process Section */}
       <section className="py-16 sm:py-20 bg-white">

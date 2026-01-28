@@ -26,14 +26,14 @@ export function HeroSection() {
 
   // Adjust camera and controls based on device
   // Camera positioned to center the house perfectly with a slightly downward isometric view
-  // Zoomed out more for better overview
-  const cameraPosition = isMobile ? [12, 12, 24] : isTablet ? [11.5, 11.5, 23] : [11, 11, 22];
+  // Zoomed in slightly for better initial view
+  const cameraPosition = isMobile ? [10.5, 10.5, 21] : isTablet ? [10, 10, 20] : [9.5, 9.5, 19];
   const cameraFov = isMobile ? 65 : isTablet ? 62 : 60;
   // Allow much closer zooming to see inside the house through walls
   const minDistance = isMobile ? 3 : isTablet ? 3 : 3;
   const maxDistance = isMobile ? 50 : isTablet ? 50 : 50;
-  // Target centered on the house (ground floor center, slightly elevated)
-  const targetPosition = [0, 3, 0];
+  // Target centered on the house (middle height to balance top and bottom spacing)
+  const targetPosition = [0, 5.5, 0];
 
   return (
     <section id="home" className="relative w-full h-[85vh] min-h-[600px] md:min-h-[700px] lg:min-h-[800px] overflow-hidden gradient-bg">
