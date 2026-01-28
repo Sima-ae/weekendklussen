@@ -79,13 +79,15 @@ export function Footer() {
               href="/"
               className="inline-block hover:opacity-80 transition-opacity mb-4"
             >
-              <Image
-                src="/images/Weblogo.png"
-                alt="Weekend Klussen"
-                width={120}
-                height={40}
-                className="h-8 sm:h-10 w-auto mx-auto sm:mx-0"
-              />
+              <div className="h-8 sm:h-10 w-auto mx-auto sm:mx-0" style={{ filter: 'brightness(0) invert(1)' }}>
+                <Image
+                  src="/images/Weblogo.png"
+                  alt="Weekend Klussen"
+                  width={120}
+                  height={40}
+                  className="h-8 sm:h-10 w-auto"
+                />
+              </div>
             </Link>
             <p className="text-sm text-gray-400 mb-4">
               Weekend Klussen is voornamelijk actief in de regio Zuid-Holland. Uw vaklieden voor verbouwing,

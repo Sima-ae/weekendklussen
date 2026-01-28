@@ -124,7 +124,7 @@ export function PriceCalculator() {
   };
 
   const generateWhatsAppMessage = () => {
-    let message = 'Hallo, ik wil graag een offerte aanvragen:\n\n';
+    let message = 'Hallo, wij willen graag een offerte aanvragen:\n\n';
     if (selectedPackage) {
       const packageData = servicePackages.find(p => p.id === selectedPackage);
       message += `Pakket: ${packageData?.name}\n`;
@@ -133,7 +133,7 @@ export function PriceCalculator() {
       message += `Dienst: ${selectedService}\n`;
     }
     message += `\nGeschatte prijs: ${formatPrice(calculateTotal())}\n\n`;
-    message += 'Graag hoor ik van u!';
+    message += 'Graag horen wij van u!';
     return encodeURIComponent(message);
   };
 
@@ -153,7 +153,7 @@ export function PriceCalculator() {
             Snel een indicatie van de kosten
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Transparantie vind ik belangrijk. Vul uw wensen in en u ziet direct waar u aan toe bent.
+            Transparantie vinden wij belangrijk. Vul uw wensen in en u ziet direct waar u aan toe bent.
           </p>
         </motion.div>
 

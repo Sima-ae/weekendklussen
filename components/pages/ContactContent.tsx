@@ -14,7 +14,7 @@ export function ContactContent() {
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
         >
-          <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Contact Weekend Klussen</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Contact</h1>
           <p className="text-lg text-gray-600 mb-2">
             Heeft u een vraag over verbouwing, renovatie of aanbouw? Of wilt u een vrijblijvende offerte aanvragen? Neem gerust contact met ons op.
           </p>

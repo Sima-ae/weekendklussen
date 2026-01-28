@@ -80,7 +80,7 @@ export function HomePageContent() {
             className="text-center"
           >
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-              Meubelmontage & Verbouwing specialist. Zonder gedoe.
+              Montage en verbouwing zonder gedoe.
             </h1>
             <p className="text-lg sm:text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
               Geen ingewikkelde handleidingen of zwaar tilwerk. Weekend Klussen zorgt dat uw verbouwing, renovatie en montage perfect worden uitgevoerd.
@@ -154,10 +154,10 @@ export function HomePageContent() {
             className="text-center mb-12"
           >
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              Waarmee kan ik u helpen?
+              Waarmee kunnen wij u helpen?
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Ik help particulieren in regio Zuid-Holland met het <strong>veilig en netjes</strong> uitvoeren van verbouwingen en renovaties.
+              Wij helpen particulieren in regio Zuid-Holland met het <strong>veilig en netjes</strong> uitvoeren van verbouwingen en renovaties.
             </p>
           </motion.div>
 
@@ -220,12 +220,12 @@ export function HomePageContent() {
               {
                 step: '2',
                 title: 'Afspraak & Uitvoering',
-                description: 'Ik kom op de afgesproken tijd, voer alles vakkundig uit en laat de ruimte netjes achter.',
+                description: 'Wij komen op de afgesproken tijd, voeren alles vakkundig uit en laten de ruimte netjes achter.',
               },
               {
                 step: '3',
                 title: 'Garantie',
-                description: 'U controleert het werk en krijgt standaard 12 maanden garantie op de uitvoering.',
+                description: 'U controleert het werk en krijgt standaard 24 maanden garantie op de uitvoering.',
               },
             ].map((item, index) => (
               <motion.div
@@ -263,7 +263,7 @@ export function HomePageContent() {
                 Het uitvoeren van verbouwingen en renovaties kan een hele opgave zijn. De materialen zijn zwaar, de plannen onduidelijk en het kost vaak meer energie dan u lief is.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Weekend Klussen is geen 'klusjesman' die er ook verbouwingen bij doet, maar een specialist die zich 100% richt op vakkundige uitvoering. Ik kom bij u thuis in Zuid-Holland en omgeving om ervoor te zorgen dat uw verbouwing perfect wordt uitgevoerd.
+                Weekend Klussen is geen 'klusjesman' die er ook verbouwingen bij doet, maar een specialist die zich 100% richt op vakkundige uitvoering. Wij komen bij u thuis in Zuid-Holland en omgeving om ervoor te zorgen dat uw verbouwing perfect wordt uitgevoerd.
               </p>
               <div className="space-y-3 mb-6">
                 <div className="flex items-center gap-3">

@@ -135,11 +135,11 @@
   .gradient-bg {
     background: linear-gradient(
       135deg,
-      #667eea 0%,
-      #764ba2 25%,
-      #f093fb 50%,
-      #4facfe 75%,
-      #00f2fe 100%
+      #5f3813 0%,
+      #8b5a3c 25%,
+      #a67c52 50%,
+      #6b4423 75%,
+      #4a2b0f 100%
     );
     background-size: 400% 400%;
     animation: gradient-xy 15s ease infinite;
@@ -148,11 +148,11 @@
   .gradient-bg-dark {
     background: linear-gradient(
       135deg,
-      #1a1a2e 0%,
-      #16213e 25%,
-      #0f3460 50%,
-      #533483 75%,
-      #1a1a2e 100%
+      #3e2723 0%,
+      #4a2b0f 25%,
+      #5f3813 50%,
+      #4a2b0f 75%,
+      #3e2723 100%
     );
     background-size: 400% 400%;
     animation: gradient-xy 20s ease infinite;
