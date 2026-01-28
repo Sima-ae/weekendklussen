@@ -227,8 +227,8 @@ export function KeukenbladAfkittenContent({
               </div>
               <div>
                 <h3 className="font-semibold text-gray-900 mb-1">Bellen</h3>
-                <a href="tel:+31642502442" className="text-brown-600 hover:underline font-medium">
-                  +31642502442
+                <a href="tel:+31103112884" className="text-brown-600 hover:underline font-medium">
+                  +31103112884
                 </a>
                 <p className="text-sm text-gray-600 mt-1">Maandag t/m vrijdag: 8:00 - 18:00</p>
               </div>

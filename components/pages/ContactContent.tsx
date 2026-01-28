@@ -30,7 +30,7 @@ export function ContactContent() {
           className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12"
         >
           <a
-            href="tel:+31642502442"
+            href="tel:+31103112884"
             className="flex items-start gap-4 p-5 bg-gray-50 rounded-xl border border-gray-100 hover:border-brown-200 hover:bg-brown-50/50 transition-colors"
           >
             <div className="w-10 h-10 bg-brown-100 rounded-lg flex items-center justify-center shrink-0">
@@ -39,7 +39,7 @@ export function ContactContent() {
             <div>
               <h2 className="font-semibold text-gray-900 mb-1">Bellen</h2>
               <p className="text-gray-600 text-sm">Bel voor spoed of een snelle vraag.</p>
-              <p className="text-brown-600 font-medium mt-1">+31642502442</p>
+              <p className="text-brown-600 font-medium mt-1">+31103112884</p>
             </div>
           </a>
           <a

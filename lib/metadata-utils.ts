@@ -212,7 +212,7 @@ export function generateLocalBusinessSchema(
       ? `Professionele ${service} service in ${location || 'Zuid-Holland'}. Ervaren vakmannen met vaste prijzen en garantie.`
       : 'Vaklieden voor renovatie en verbouwing in Zuid-Holland en omgeving.',
     url: 'https://weekend-klussen.nl',
-    telephone: '+31642502442',
+    telephone: '+31103112884',
     email: 'info@weekend-klussen.nl',
     address: {
       '@type': 'PostalAddress',

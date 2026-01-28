@@ -8,7 +8,7 @@ import { generateLocalBusinessSchema } from '@/lib/metadata-utils';
 export const metadata: Metadata = {
   title: 'Contact | Weekend Klussen Vaklieden Zuid-Holland – Bel of Mail voor Offerte',
   description:
-    'Neem contact op met Weekend Klussen vaklieden in Zuid-Holland. Bel +31642502442 of mail naar info@weekend-klussen.nl voor een gratis offerte. Wij zijn bereikbaar voor verbouwing, renovatie, aanbouw en al uw bouwvragen. Snelle reactie binnen 24 uur.',
+    'Neem contact op met Weekend Klussen vaklieden in Zuid-Holland. Bel +31103112884 of mail naar info@weekend-klussen.nl voor een gratis offerte. Wij zijn bereikbaar voor verbouwing, renovatie, aanbouw en al uw bouwvragen. Snelle reactie binnen 24 uur.',
   keywords: [
     'contact Weekend Klussen',
     'vaklieden bellen',

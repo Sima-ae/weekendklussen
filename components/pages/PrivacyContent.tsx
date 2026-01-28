@@ -46,7 +46,7 @@ export function PrivacyContent() {
             <p className="font-semibold mb-2">Contactgegevens:</p>
             <p>Weekend Klussen</p>
             <p>E-mail: <a href="mailto:info@weekend-klussen.nl" className="text-brown-600 hover:underline">info@weekend-klussen.nl</a></p>
-            <p>Telefoon: <a href="tel:+31642502442" className="text-brown-600 hover:underline">+31642502442</a></p>
+            <p>Telefoon: <a href="tel:+31103112884" className="text-brown-600 hover:underline">+31103112884</a></p>
           </div>
         </motion.section>
 
@@ -247,7 +247,7 @@ export function PrivacyContent() {
           <p className="mt-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
             <strong>Om uw rechten uit te oefenen, kunt u contact met ons opnemen via:</strong><br />
             E-mail: <a href="mailto:info@weekend-klussen.nl" className="text-brown-600 hover:underline">info@weekend-klussen.nl</a><br />
-            Telefoon: <a href="tel:+31642502442" className="text-brown-600 hover:underline">+31642502442</a>
+            Telefoon: <a href="tel:+31103112884" className="text-brown-600 hover:underline">+31103112884</a>
           </p>
         </motion.section>
 
@@ -293,7 +293,7 @@ export function PrivacyContent() {
           <div className="bg-brown-50 p-6 rounded-lg">
             <p className="font-semibold text-lg mb-3">Weekend Klussen</p>
             <p className="mb-2">E-mail: <a href="mailto:info@weekend-klussen.nl" className="text-brown-600 hover:underline font-medium">info@weekend-klussen.nl</a></p>
-            <p>Telefoon: <a href="tel:+31642502442" className="text-brown-600 hover:underline font-medium">+31642502442</a></p>
+            <p>Telefoon: <a href="tel:+31103112884" className="text-brown-600 hover:underline font-medium">+31103112884</a></p>
           </div>
         </motion.section>
       </div>

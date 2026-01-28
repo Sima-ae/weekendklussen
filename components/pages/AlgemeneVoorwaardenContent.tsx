@@ -353,7 +353,7 @@ export function AlgemeneVoorwaardenContent() {
           <div className="bg-brown-50 p-6 rounded-lg">
             <p className="font-semibold text-lg mb-3">Weekend Klussen</p>
             <p className="mb-2">E-mail: <a href="mailto:info@weekend-klussen.nl" className="text-brown-600 hover:underline font-medium">info@weekend-klussen.nl</a></p>
-            <p>Telefoon: <a href="tel:+31642502442" className="text-brown-600 hover:underline font-medium">+31642502442</a></p>
+            <p>Telefoon: <a href="tel:+31103112884" className="text-brown-600 hover:underline font-medium">+31103112884</a></p>
             <p className="mt-4 text-sm text-gray-600">
               Werkgebied: Zuid-Holland (Rotterdam, Den Haag, Leiden, Dordrecht, Gouda, Delft en omgeving)
             </p>
