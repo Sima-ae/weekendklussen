@@ -16,7 +16,7 @@ export default function BadkamerRenovatieGoudaPage() {
       <LocationContent
         location="Gouda"
         title="Badkamer Renovatie Gouda"
-        description="Weekend Klussen is gespecialiseerd in badkamer renovatie in Gouda. Wij verzorgen complete badkamer renovaties van ontwerp tot oplevering, met aandacht voor detail en kwaliteit. Van kleine aanpassingen tot volledige badkamer renovatie."
+        description="Weekend Klussen is gespecialiseerd in badkamer renovatie in Gouda. Wij verzorgen complete badkamer renovaties van ontwerp tot oplevering, met aandacht voor detail en kwaliteit. Van toilet tot volledige badkamer renovatie."
         nearbyCities={['Rotterdam', 'Leiden', 'Zoetermeer', 'Utrecht', 'Woerden']}
         services={[
           'Complete badkamer renovatie en verbouwing',

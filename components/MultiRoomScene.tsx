@@ -6,8 +6,6 @@ import { HouseFurniture } from './rooms/HouseFurniture';
 import { HorizontalHousePlumbing } from './rooms/HorizontalHousePlumbing';
 import { AnnexRoom } from './rooms/AnnexRoom';
 import { AddAnnexIcon } from './rooms/AddAnnexIcon';
-import { CraneIcon } from './rooms/CraneIcon';
-import { AerialWorkPlatform } from './rooms/AerialWorkPlatform';
 import { FloatingStairs } from './rooms/FloatingStairs';
 import { DoorsWindowsIcon } from './rooms/DoorsWindowsIcon';
 import { DoorsAndWindows } from './rooms/DoorsAndWindows';
@@ -24,16 +22,11 @@ import { PlumbingIcon } from './rooms/PlumbingIcon';
 
 export function MultiRoomScene() {
   const [hasAnnex, setHasAnnex] = useState(false);
-  const [craneActive, setCraneActive] = useState(false);
   const [hasDoorsWindows, setHasDoorsWindows] = useState(false);
   const [hasRoofExtension, setHasRoofExtension] = useState(false);
 
   const handleToggleAnnex = () => {
     setHasAnnex(!hasAnnex);
-  };
-
-  const handleToggleCrane = () => {
-    setCraneActive(!craneActive);
   };
 
   const handleToggleDoorsWindows = () => {
@@ -92,22 +85,6 @@ export function MultiRoomScene() {
 
       {/* Annex door - appears when annexroom is shown, half open from hall to annexroom */}
       <AnnexDoor showDoor={hasAnnex} />
-
-      {/* Crane Icon - positioned in garden (away from house) */}
-      <CraneIcon 
-        position={[-15, 1, -12]} 
-        hasCrane={craneActive}
-        onToggleCrane={handleToggleCrane}
-      />
-
-      {/* Aerial Work Platform - appears and extends when crane icon is clicked */}
-      {craneActive && (
-        <AerialWorkPlatform 
-          position={[-15, 0, -12]}
-          targetPosition={[6, 11, 5]} // Roof corner (top right front) - well above roof height
-          isActive={craneActive}
-        />
-      )}
 
       {/* Doors and Windows Icon - positioned at back of house */}
       <DoorsWindowsIcon 

@@ -16,7 +16,7 @@ export default function BadkamerRenovatieVlaardingenPage() {
       <LocationContent
         location="Vlaardingen"
         title="Badkamer Renovatie Vlaardingen"
-        description="Weekend Klussen is gespecialiseerd in badkamer renovatie in Vlaardingen. Wij verzorgen complete badkamer renovaties van ontwerp tot oplevering, met aandacht voor detail en kwaliteit. Van kleine aanpassingen tot volledige badkamer renovatie."
+        description="Weekend Klussen is gespecialiseerd in badkamer renovatie in Vlaardingen. Wij verzorgen complete badkamer renovaties van ontwerp tot oplevering, met aandacht voor detail en kwaliteit. Van toilet tot volledige badkamer renovatie."
         nearbyCities={['Rotterdam', 'Schiedam', 'Maassluis', 'Delft', 'Den Haag']}
         services={[
           'Complete badkamer renovatie en verbouwing',

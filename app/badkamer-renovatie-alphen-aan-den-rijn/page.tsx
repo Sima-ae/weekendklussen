@@ -16,7 +16,7 @@ export default function BadkamerRenovatieAlphenAanDenRijnPage() {
       <LocationContent
         location="Alphen aan den Rijn"
         title="Badkamer Renovatie Alphen aan den Rijn"
-        description="Weekend Klussen is gespecialiseerd in badkamer renovatie in Alphen aan den Rijn. Wij verzorgen complete badkamer renovaties van ontwerp tot oplevering, met aandacht voor detail en kwaliteit. Van kleine aanpassingen tot volledige badkamer renovatie."
+        description="Weekend Klussen is gespecialiseerd in badkamer renovatie in Alphen aan den Rijn. Wij verzorgen complete badkamer renovaties van ontwerp tot oplevering, met aandacht voor detail en kwaliteit. Van toilet tot volledige badkamer renovatie."
         nearbyCities={['Leiden', 'Gouda', 'Zoetermeer', 'Utrecht', 'Woerden']}
         services={[
           'Complete badkamer renovatie en verbouwing',

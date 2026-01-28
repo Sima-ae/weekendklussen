@@ -16,7 +16,7 @@ export default function BadkamerRenoverenZoetermeerPage() {
       <LocationContent
         location="Zoetermeer"
         title="Badkamer Renoveren Zoetermeer"
-        description="Weekend Klussen is gespecialiseerd in badkamer renoveren in Zoetermeer. Wij verzorgen complete badkamer renovaties van ontwerp tot oplevering, met aandacht voor detail en kwaliteit. Van kleine aanpassingen tot volledige badkamer renovatie."
+        description="Weekend Klussen is gespecialiseerd in badkamer renoveren in Zoetermeer. Wij verzorgen complete badkamer renovaties van ontwerp tot oplevering, met aandacht voor detail en kwaliteit. Van toilet tot volledige badkamer renovatie."
         nearbyCities={['Den Haag', 'Leiden', 'Gouda', 'Delft', 'Pijnacker-Nootdorp']}
         services={[
           'Complete badkamer renovatie en verbouwing',

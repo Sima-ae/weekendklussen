@@ -21,7 +21,7 @@ const diensten = [
   {
     icon: Bath,
     title: 'Badkamer verbouwen',
-    description: 'Complete badkamer renovatie, sanitair installeren en volledige verbouwingsplannen. Van kleine aanpassingen tot complete badkamer verbouwing.',
+    description: 'Complete badkamer renovatie, sanitair installeren en volledige verbouwingsplannen. Van toilet tot complete badkamer verbouwing.',
     href: '/diensten#badkamer',
   },
   {
@@ -47,7 +47,7 @@ const diensten = [
 const voordelen = [
   {
     icon: ShieldCheck,
-    title: '12 Maanden garantie',
+    title: '24 maanden garantie',
     description: 'Volledige zekerheid op alle werkzaamheden',
   },
   {
@@ -268,7 +268,7 @@ export function HomePageContent() {
               <div className="space-y-3 mb-6">
                 <div className="flex items-center gap-3">
                   <CheckCircle className="text-brown-600" size={20} />
-                  <span className="text-gray-700">12 Maanden volledige garantie</span>
+                  <span className="text-gray-700">24 maanden volledige garantie</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="text-brown-600" size={20} />

@@ -17,7 +17,7 @@ const diensten = [
     icon: Bath,
     title: 'Badkamer verbouwen',
     description:
-      'Badkamer renovatie, sanitair installeren en volledige verbouwingsplannen. Van kleine aanpassingen tot complete badkamer verbouwing. Vakmannen met garantie.',
+      'Badkamer renovatie, sanitair installeren en volledige verbouwingsplannen. Van toilet tot complete badkamer verbouwing. Vakmannen met garantie.',
     href: '/diensten#badkamer',
   },
   {

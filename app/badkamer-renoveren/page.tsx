@@ -16,7 +16,7 @@ export default function BadkamerRenoverenPage() {
       <LocationContent
         location="Zuid-Holland"
         title="Badkamer Renoveren"
-        description="Weekend Klussen is gespecialiseerd in badkamer renoveren in Zuid-Holland. Wij verzorgen complete badkamer renovaties van ontwerp tot oplevering, met aandacht voor detail en kwaliteit. Van kleine aanpassingen tot volledige badkamer renovatie."
+        description="Weekend Klussen is gespecialiseerd in badkamer renoveren in Zuid-Holland. Wij verzorgen complete badkamer renovaties van ontwerp tot oplevering, met aandacht voor detail en kwaliteit. Van toilet tot volledige badkamer renovatie."
         nearbyCities={[
           'Rotterdam', 'Den Haag', 'Leiden', 'Dordrecht', 'Gouda', 'Delft', 
           'Zoetermeer', 'Schiedam', 'Vlaardingen', 'Westland', 'Rijswijk',

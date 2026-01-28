@@ -16,7 +16,7 @@ export default function BadkamerRenoverenLeidenPage() {
       <LocationContent
         location="Leiden"
         title="Badkamer Renoveren Leiden"
-        description="Weekend Klussen is gespecialiseerd in badkamer renoveren in Leiden. Wij verzorgen complete badkamer renovaties van ontwerp tot oplevering, met aandacht voor detail en kwaliteit. Van kleine aanpassingen tot volledige badkamer renovatie."
+        description="Weekend Klussen is gespecialiseerd in badkamer renoveren in Leiden. Wij verzorgen complete badkamer renovaties van ontwerp tot oplevering, met aandacht voor detail en kwaliteit. Van toilet tot volledige badkamer renovatie."
         nearbyCities={['Den Haag', 'Zoetermeer', 'Gouda', 'Alphen aan den Rijn', 'Katwijk']}
         services={[
           'Complete badkamer renovatie en verbouwing',
