@@ -20,25 +20,25 @@ import { PriceCalculator } from './PriceCalculator';
 const diensten = [
   {
     icon: Bath,
-    title: 'Badkamer verbouwen',
+    title: 'Badkamer en toilet verbouwen',
     description: 'Complete badkamer renovatie, sanitair installeren en volledige verbouwingsplannen. Van toilet tot complete badkamer verbouwing.',
     href: '/diensten#badkamer',
   },
   {
     icon: Home,
-    title: 'Keukenrenovatie & keuken plaatsen',
+    title: 'Keukenrenovatie en keuken plaatsen',
     description: 'Keuken plaatsen, keukenrenovatie en aanpassingen. Professionele uitvoering, vaste prijs en bouwbegeleiding bij uw keukenverbouwing.',
     href: '/diensten#keuken',
   },
   {
     icon: Wrench,
-    title: 'Aanbouw, uitbouw & dakkapel',
+    title: 'Aanbouw, uitbouw en dakkapel',
     description: 'Aanbouw maken, uitbouw bouwen, serre bouwen, dakkapel plaatsen. Bouwtekening, vergunning aanvragen en bouwbegeleiding.',
     href: '/diensten#aanbouw',
   },
   {
     icon: HardHat,
-    title: 'Renovatie & verbouwing',
+    title: 'Renovatie en verbouwing',
     description: 'Woningverbouwing, renovatie en verbouwing zonder gedoe. Verbouwingskosten helder inzichtelijk. Duurzaam en energieneutraal bouwen.',
     href: '/diensten#renovatie',
   },
@@ -58,7 +58,7 @@ const voordelen = [
   {
     icon: Clock,
     title: 'Snelle reactie',
-    description: 'Binnen 30 min reactie via WhatsApp',
+    description: 'Binnen 2-4 uur reactie via WhatsApp',
   },
   {
     icon: MapPin,
