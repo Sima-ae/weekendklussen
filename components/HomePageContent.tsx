@@ -301,7 +301,7 @@ export function HomePageContent() {
                   <div>
                     <div className="font-semibold text-gray-900">Telefoon</div>
                     <a href="tel:+31103112884" className="text-brown-600 hover:underline font-medium">
-                      +31 6 4250 2442
+                      +31103112884
                     </a>
                     <p className="text-sm text-gray-600 mt-1">24/7 Spoedservice beschikbaar</p>
                   </div>

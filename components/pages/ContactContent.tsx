@@ -44,7 +44,7 @@ export function ContactContent() {
               <div>
                 <h2 className="text-xl font-bold text-gray-900 mb-2">Bellen</h2>
                 <p className="text-gray-600 mb-3">Bel voor spoed of een snelle vraag.</p>
-                <p className="text-brown-600 font-semibold text-lg">+31 6 4250 2442</p>
+                <p className="text-brown-600 font-semibold text-lg">+31103112884</p>
                 <p className="text-sm text-gray-500 mt-2">24/7 Spoedservice beschikbaar</p>
               </div>
             </motion.a>
