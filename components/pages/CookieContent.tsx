@@ -44,7 +44,7 @@ export function CookieContent() {
           <p className="mb-4">
             Deze cookies zijn noodzakelijk voor het functioneren van de website en kunnen niet worden uitgeschakeld. Zij worden meestal alleen ingesteld als reactie op acties die u uitvoert, zoals het instellen van uw privacyvoorkeuren, inloggen of het invullen van formulieren.
           </p>
-          <div className="bg-indigo-50 p-4 rounded-lg mb-4">
+          <div className="bg-amber-50 p-4 rounded-lg mb-4">
             <p className="font-semibold mb-2">Voorbeelden:</p>
             <ul className="list-disc pl-6 space-y-1 text-sm">
               <li>Sessiebeheer en beveiliging</li>
@@ -57,7 +57,7 @@ export function CookieContent() {
           <p className="mb-4">
             Deze cookies helpen ons te begrijpen hoe bezoekers onze website gebruiken door informatie te verzamelen over het aantal bezoekers, welke pagina's het meest worden bezocht en hoe lang bezoekers op de website blijven. Deze informatie wordt gebruikt om onze website te verbeteren.
           </p>
-          <div className="bg-indigo-50 p-4 rounded-lg mb-4">
+          <div className="bg-amber-50 p-4 rounded-lg mb-4">
             <p className="font-semibold mb-2">Doel:</p>
             <ul className="list-disc pl-6 space-y-1 text-sm">
               <li>Website-analyse en statistieken</li>
@@ -204,7 +204,7 @@ export function CookieContent() {
             Voor niet-noodzakelijke cookies vragen wij uw toestemming voordat deze worden geplaatst. Functionele cookies die noodzakelijk zijn voor het functioneren van de website, worden geplaatst zonder uw toestemming.
           </p>
           
-          <div className="bg-indigo-50 p-4 rounded-lg mb-4">
+          <div className="bg-amber-50 p-4 rounded-lg mb-4">
             <p className="font-semibold mb-2">Uw rechten:</p>
             <ul className="list-disc pl-6 space-y-1 text-sm">
               <li>U kunt uw toestemming voor cookies op elk moment intrekken</li>
@@ -227,7 +227,7 @@ export function CookieContent() {
           <h2 className="text-2xl font-bold text-gray-900 mb-4">8. Cookies en persoonsgegevens</h2>
           <p className="mb-4">
             Sommige cookies kunnen persoonsgegevens bevatten of verzamelen. In dat geval is ons{' '}
-            <Link href="/privacy" className="text-indigo-600 hover:underline font-medium">
+            <Link href="/privacy" className="text-brown-600 hover:underline font-medium">
               privacybeleid
             </Link>{' '}
             van toepassing op de verwerking van deze gegevens.
@@ -270,7 +270,7 @@ export function CookieContent() {
                   href="https://www.autoriteitpersoonsgegevens.nl" 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="text-indigo-600 hover:underline"
+                  className="text-brown-600 hover:underline"
                 >
                   Autoriteit Persoonsgegevens (AP)
                 </a> - Informatie over privacy en gegevensbescherming
@@ -280,7 +280,7 @@ export function CookieContent() {
                   href="https://www.allaboutcookies.org" 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="text-indigo-600 hover:underline"
+                  className="text-brown-600 hover:underline"
                 >
                   All About Cookies
                 </a> - Algemene informatie over cookies
@@ -299,10 +299,10 @@ export function CookieContent() {
           <p className="mb-4">
             Voor vragen over dit cookiebeleid of over het gebruik van cookies op onze website, kunt u contact met ons opnemen:
           </p>
-          <div className="bg-indigo-50 p-6 rounded-lg">
+          <div className="bg-amber-50 p-6 rounded-lg">
             <p className="font-semibold text-lg mb-3">Weekend Klussen</p>
-            <p className="mb-2">E-mail: <a href="mailto:info@weekend-klussen.nl" className="text-indigo-600 hover:underline font-medium">info@weekend-klussen.nl</a></p>
-            <p>Telefoon: <a href="tel:+31642502442" className="text-indigo-600 hover:underline font-medium">+31642502442</a></p>
+            <p className="mb-2">E-mail: <a href="mailto:info@weekend-klussen.nl" className="text-brown-600 hover:underline font-medium">info@weekend-klussen.nl</a></p>
+            <p>Telefoon: <a href="tel:+31642502442" className="text-brown-600 hover:underline font-medium">+31642502442</a></p>
           </div>
         </motion.section>
       </div>
@@ -315,7 +315,7 @@ export function CookieContent() {
       >
         <Link
           href="/"
-          className="inline-flex items-center gap-2 text-indigo-600 font-medium hover:underline"
+          className="inline-flex items-center gap-2 text-brown-600 font-medium hover:underline"
         >
           ← Terug naar home
         </Link>

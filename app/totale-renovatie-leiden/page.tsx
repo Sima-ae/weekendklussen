@@ -6,7 +6,7 @@ import { generatePageMetadata } from '@/lib/metadata-utils';
 
 export const metadata: Metadata = generatePageMetadata({
   title: 'Totale Renovatie Leiden | Weekend Klussen Totale Renovatie Leiden',
-  description: 'Totale renovatie van uw woning in Leiden. Complete woningverbouwing van A tot Z. Ervaren aannemer met vaste prijzen. Gratis offerte.',
+  description: 'Totale renovatie van uw woning in Leiden. Complete woningverbouwing van A tot Z. Ervaren vaklieden met vaste prijzen. Gratis offerte.',
   location: 'Leiden',
   service: 'totale renovatie',
   keywords: ['totale renovatie Leiden', 'complete renovatie Leiden', 'totaalrenovatie Leiden', 'woningverbouwing Leiden'],
@@ -35,7 +35,7 @@ export default function TotaleRenovatieLeidenPage() {
         nearbyCities={['Den Haag', 'Delft', 'Zoetermeer', 'Gouda', 'Alphen aan den Rijn', 'Katwijk']}
         serviceBenefits={[
           'Alles uit één hand, geen gedoe met meerdere partijen',
-          'Ervaren aannemer met jarenlange expertise',
+          'Ervaren vaklieden met jarenlange expertise',
           'Vaste prijzen zonder verrassingen',
           'Garantie op alle renovatie werkzaamheden',
           'Projectmanagement en bouwbegeleiding',

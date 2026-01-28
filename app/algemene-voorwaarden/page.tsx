@@ -4,9 +4,9 @@ import { Footer } from '@/components/Footer';
 import { AlgemeneVoorwaardenContent } from '@/components/pages/AlgemeneVoorwaardenContent';
 
 export const metadata: Metadata = {
-  title: 'Algemene Voorwaarden | Weekend Klussen Aannemer',
+  title: 'Algemene Voorwaarden | Weekend Klussen Vaklieden',
   description:
-    'Aannemer voor renovatie en verbouwing in Zuid-Holland en omgeving. Algemene voorwaarden van Weekend Klussen. Bekijk onze voorwaarden voor offertes, opdrachten, betaling, garantie en aansprakelijkheid.',
+    'Vaklieden voor renovatie en verbouwing in Zuid-Holland en omgeving. Algemene voorwaarden van Weekend Klussen. Bekijk onze voorwaarden voor offertes, opdrachten, betaling, garantie en aansprakelijkheid.',
 };
 
 export default function AlgemeneVoorwaardenPage() {

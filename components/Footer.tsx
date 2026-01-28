@@ -88,7 +88,7 @@ export function Footer() {
               />
             </Link>
             <p className="text-sm text-gray-400 mb-4">
-              Weekend Klussen is voornamelijk actief in de regio Zuid-Holland. Uw aannemer voor verbouwing,
+              Weekend Klussen is voornamelijk actief in de regio Zuid-Holland. Uw vaklieden voor verbouwing,
               renovatie, aanbouw, badkamer, keuken, toilet en meer. Vakmannen met vaste prijzen en garantie.
             </p>
             

@@ -6,15 +6,15 @@ import { StructuredData } from '@/components/StructuredData';
 import { generateLocalBusinessSchema } from '@/lib/metadata-utils';
 
 export const metadata: Metadata = {
-  title: 'Contact | Weekend Klussen Aannemer Zuid-Holland – Bel of Mail voor Offerte',
+  title: 'Contact | Weekend Klussen Vaklieden Zuid-Holland – Bel of Mail voor Offerte',
   description:
-    'Neem contact op met Weekend Klussen aannemer in Zuid-Holland. Bel +31642502442 of mail naar info@weekend-klussen.nl voor een gratis offerte. Wij zijn bereikbaar voor verbouwing, renovatie, aanbouw en al uw bouwvragen. Snelle reactie binnen 24 uur.',
+    'Neem contact op met Weekend Klussen vaklieden in Zuid-Holland. Bel +31642502442 of mail naar info@weekend-klussen.nl voor een gratis offerte. Wij zijn bereikbaar voor verbouwing, renovatie, aanbouw en al uw bouwvragen. Snelle reactie binnen 24 uur.',
   keywords: [
     'contact Weekend Klussen',
-    'aannemer bellen',
-    'aannemer contact',
+    'vaklieden bellen',
+    'vaklieden contact',
     'offerte aanvragen',
-    'aannemer Zuid-Holland',
+    'vaklieden Zuid-Holland',
     'bouwbedrijf contact',
     'gratis offerte',
   ],
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'nl_NL',
     url: 'https://weekend-klussen.nl/contact',
-    title: 'Contact | Weekend Klussen Aannemer',
+    title: 'Contact | Weekend Klussen Vaklieden',
     description:
       'Neem contact op met Weekend Klussen voor verbouwing, renovatie en offerte. Bel of mail voor snelle reactie.',
     siteName: 'Weekend Klussen',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Contact | Weekend Klussen Aannemer',
+    title: 'Contact | Weekend Klussen Vaklieden',
     description:
       'Neem contact op voor verbouwing, renovatie en gratis offerte.',
     images: ['https://weekend-klussen.nl/images/Weblogo.png'],

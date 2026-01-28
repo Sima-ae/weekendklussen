@@ -6,7 +6,7 @@ import { generatePageMetadata } from '@/lib/metadata-utils';
 
 export const metadata: Metadata = generatePageMetadata({
   title: 'Totale Renovatie Vlaardingen | Weekend Klussen Totale Renovatie Vlaardingen',
-  description: 'Totale renovatie van uw woning in Vlaardingen. Complete woningverbouwing van A tot Z. Ervaren aannemer met vaste prijzen. Gratis offerte.',
+  description: 'Totale renovatie van uw woning in Vlaardingen. Complete woningverbouwing van A tot Z. Ervaren vaklieden met vaste prijzen. Gratis offerte.',
   location: 'Vlaardingen',
   service: 'totale renovatie',
   keywords: ['totale renovatie Vlaardingen', 'complete renovatie Vlaardingen', 'totaalrenovatie Vlaardingen', 'woningverbouwing Vlaardingen'],
@@ -35,7 +35,7 @@ export default function TotaleRenovatieVlaardingenPage() {
         nearbyCities={['Rotterdam', 'Schiedam', 'Maassluis', 'Delft', 'Den Haag', 'Hoek van Holland']}
         serviceBenefits={[
           'Alles uit één hand, geen gedoe met meerdere partijen',
-          'Ervaren aannemer met jarenlange expertise',
+          'Ervaren vaklieden met jarenlange expertise',
           'Vaste prijzen zonder verrassingen',
           'Garantie op alle renovatie werkzaamheden',
           'Projectmanagement en bouwbegeleiding',

@@ -85,8 +85,8 @@ export function OfferteContent() {
         transition={{ duration: 0.5 }}
         className="text-center mb-12"
       >
-        <div className="w-14 h-14 bg-indigo-100 rounded-xl flex items-center justify-center mx-auto mb-4">
-          <FileText className="text-indigo-600" size={28} />
+        <div className="w-14 h-14 bg-brown-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+          <FileText className="text-brown-600" size={28} />
         </div>
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
           Offerte aanvragen
@@ -113,7 +113,7 @@ export function OfferteContent() {
               name="naam"
               type="text"
               required
-              className="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+              className="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brown-500 focus:border-brown-500"
             />
           </div>
           <div>
@@ -125,7 +125,7 @@ export function OfferteContent() {
               name="telefoon"
               type="tel"
               required
-              className="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+              className="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brown-500 focus:border-brown-500"
             />
           </div>
         </div>
@@ -138,7 +138,7 @@ export function OfferteContent() {
             name="email"
             type="email"
             required
-            className="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+            className="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brown-500 focus:border-brown-500"
           />
         </div>
         <div>
@@ -151,7 +151,7 @@ export function OfferteContent() {
             type="text"
             required
             placeholder="bijv. Rotterdam, Den Haag, Leiden"
-            className="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+            className="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brown-500 focus:border-brown-500"
           />
         </div>
         <div>
@@ -162,7 +162,7 @@ export function OfferteContent() {
             id="dienst"
             name="dienst"
             required
-            className="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 bg-white"
+            className="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brown-500 focus:border-brown-500 bg-white"
           >
             <option value="">Maak een keuze...</option>
             {dienstenOpties.map((d) => (
@@ -182,7 +182,7 @@ export function OfferteContent() {
             rows={4}
             required
             placeholder="Bijv. badkamer verbouwen, aanbouw achterkant woning, keukenrenovatie..."
-            className="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 resize-none"
+            className="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brown-500 focus:border-brown-500 resize-none"
           />
         </div>
         {error && (
@@ -194,7 +194,7 @@ export function OfferteContent() {
         <p className="text-sm text-gray-500">
           Door te versturen gaat u akkoord met het verwerken van uw gegevens voor uw offerteaanvraag.
           Wij gebruiken uw gegevens alleen hiervoor. Zie onze{' '}
-          <a href="/privacy" className="text-indigo-600 hover:underline">
+          <a href="/privacy" className="text-brown-600 hover:underline">
             privacyverklaring
           </a>
           .
@@ -202,7 +202,7 @@ export function OfferteContent() {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full py-3.5 bg-indigo-600 text-white rounded-lg font-semibold hover:bg-indigo-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+          className="w-full py-3.5 bg-brown-600 text-white rounded-lg font-semibold hover:bg-brown-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
         >
           {isSubmitting ? (
             <>

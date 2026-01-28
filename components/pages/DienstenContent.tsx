@@ -17,7 +17,7 @@ const secties = [
     icon: Bath,
     title: 'Badkamer verbouwen & badkamer renovatie',
     intro:
-      'Van badkamer verbouwen tot complete badkamer renovatie. Sanitair installeren, tegelzetter, stucen en alle afwerking. Wij zijn uw aannemer voor badkamer renovatie.',
+      'Van badkamer verbouwen tot complete badkamer renovatie. Sanitair installeren, tegelzetter, stucen en alle afwerking. Wij zijn uw vaklieden voor badkamer renovatie.',
     items: [
       'Badkamer verbouwen',
       'Sanitair installeren en aanpassingen',
@@ -90,11 +90,11 @@ export function DienstenContent() {
       >
             <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Diensten van Weekend Klussen</h1>
         <p className="text-lg text-gray-600 mb-4">
-          Weekend Klussen is uw betrouwbare aannemer en bouwbedrijf in Zuid-Holland. Wij verzorgen een breed scala aan bouw- en renovatiediensten voor particulieren en bedrijven. Van complete woningverbouwing tot specifieke klussen zoals badkamer verbouwen, keukenrenovatie, aanbouw plaatsen en meer.
+          Weekend Klussen is uw betrouwbare vaklieden en bouwbedrijf in Zuid-Holland. Wij verzorgen een breed scala aan bouw- en renovatiediensten voor particulieren en bedrijven. Van complete woningverbouwing tot specifieke klussen zoals badkamer verbouwen, keukenrenovatie, aanbouw plaatsen en meer.
         </p>
         <p className="text-lg text-gray-600">
           Alle werkzaamheden worden uitgevoerd door ervaren vakmannen met vaste prijzen en garantie. Vraag vrijblijvend een{' '}
-          <Link href="/offerte" className="text-indigo-600 font-medium hover:underline">
+          <Link href="/offerte" className="text-brown-600 font-medium hover:underline">
             gratis offerte
           </Link>{' '}
           aan en ontvang binnen 24-48 uur een duidelijke prijsopgave.
@@ -115,8 +115,8 @@ export function DienstenContent() {
               className="scroll-mt-24"
             >
               <div className="flex items-start gap-4 mb-4">
-                <div className="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center shrink-0">
-                  <Icon className="text-indigo-600" size={24} />
+                <div className="w-12 h-12 bg-brown-100 rounded-lg flex items-center justify-center shrink-0">
+                  <Icon className="text-brown-600" size={24} />
                 </div>
                 <div>
                   <h2 className="text-2xl font-bold text-gray-900">{s.title}</h2>
@@ -126,7 +126,7 @@ export function DienstenContent() {
               <ul className="ml-0 sm:ml-16 space-y-2">
                 {s.items.map((item) => (
                   <li key={item} className="flex items-start gap-2 text-gray-700">
-                    <span className="w-1.5 h-1.5 bg-indigo-500 rounded-full mt-1.5 shrink-0" />
+                    <span className="w-1.5 h-1.5 bg-brown-500 rounded-full mt-1.5 shrink-0" />
                     {item}
                   </li>
                 ))}
@@ -158,7 +158,7 @@ export function DienstenContent() {
       >
         <Link
           href="/offerte"
-          className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white rounded-lg font-semibold hover:bg-indigo-700 transition-colors"
+          className="inline-flex items-center gap-2 px-6 py-3 bg-brown-600 text-white rounded-lg font-semibold hover:bg-brown-700 transition-colors"
         >
           Gratis offerte aanvragen <ArrowRight size={18} />
         </Link>

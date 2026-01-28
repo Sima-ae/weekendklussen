@@ -73,8 +73,8 @@ export function getRoutePriority(route: string): number {
     return 0.95;
   }
   
-  // Location-specific aannemer pages (high priority)
-  if (route.match(/^aannemer-[a-z-]+$/)) {
+  // Location-specific vaklieden pages (high priority)
+  if (route.match(/^vaklieden-[a-z-]+$/)) {
     return 0.9;
   }
   
@@ -114,7 +114,7 @@ export function getChangeFrequency(route: string): 'always' | 'hourly' | 'daily'
   }
   
   // Location and service pages
-  if (route.includes('aannemer-') || route.match(/^(montage|nacht-loodgieter|ontstoppen|pvc-vloeren|sanitair|slotenmaker|spoed-|toilet-|totaal-|totale-|verstopping-|vloeren|voegen|voegwerk|wastafel|woning-renovatie)/)) {
+  if (route.includes('vaklieden-') || route.match(/^(montage|nacht-loodgieter|ontstoppen|pvc-vloeren|sanitair|slotenmaker|spoed-|toilet-|totaal-|totale-|verstopping-|vloeren|voegen|voegwerk|wastafel|woning-renovatie)/)) {
     return 'weekly';
   }
   

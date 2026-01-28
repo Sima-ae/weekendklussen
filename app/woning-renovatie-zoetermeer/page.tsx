@@ -6,7 +6,7 @@ import { generatePageMetadata } from '@/lib/metadata-utils';
 
 export const metadata: Metadata = generatePageMetadata({
   title: 'Woning Renovatie Zoetermeer | Weekend Klussen Woning Renovatie Zoetermeer',
-  description: 'Woning renovatie in Zoetermeer. Complete woningverbouwing en renovatie van uw woning. Ervaren aannemer met vaste prijzen. Gratis offerte.',
+  description: 'Woning renovatie in Zoetermeer. Complete woningverbouwing en renovatie van uw woning. Ervaren vaklieden met vaste prijzen. Gratis offerte.',
   location: 'Zoetermeer',
   service: 'woning renovatie',
   keywords: ['woning renovatie Zoetermeer', 'woning verbouwing Zoetermeer', 'woningrenovatie Zoetermeer', 'woning verbouwen Zoetermeer'],
@@ -35,7 +35,7 @@ export default function WoningRenovatieZoetermeerPage() {
         nearbyCities={['Den Haag', 'Delft', 'Leiden', 'Gouda', 'Pijnacker-Nootdorp', 'Rijswijk']}
         serviceBenefits={[
           'Alles uit één hand, geen gedoe met meerdere partijen',
-          'Ervaren aannemer met jarenlange expertise',
+          'Ervaren vaklieden met jarenlange expertise',
           'Vaste prijzen zonder verrassingen',
           'Garantie op alle renovatie werkzaamheden',
           'Projectmanagement en bouwbegeleiding',

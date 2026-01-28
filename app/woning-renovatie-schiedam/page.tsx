@@ -6,7 +6,7 @@ import { generatePageMetadata } from '@/lib/metadata-utils';
 
 export const metadata: Metadata = generatePageMetadata({
   title: 'Woning Renovatie Schiedam | Weekend Klussen Woning Renovatie Schiedam',
-  description: 'Woning renovatie in Schiedam. Complete woningverbouwing en renovatie van uw woning. Ervaren aannemer met vaste prijzen. Gratis offerte.',
+  description: 'Woning renovatie in Schiedam. Complete woningverbouwing en renovatie van uw woning. Ervaren vaklieden met vaste prijzen. Gratis offerte.',
   location: 'Schiedam',
   service: 'woning renovatie',
   keywords: ['woning renovatie Schiedam', 'woning verbouwing Schiedam', 'woningrenovatie Schiedam', 'woning verbouwen Schiedam'],
@@ -35,7 +35,7 @@ export default function WoningRenovatieSchiedamPage() {
         nearbyCities={['Rotterdam', 'Vlaardingen', 'Maassluis', 'Delft', 'Den Haag', 'Dordrecht']}
         serviceBenefits={[
           'Alles uit één hand, geen gedoe met meerdere partijen',
-          'Ervaren aannemer met jarenlange expertise',
+          'Ervaren vaklieden met jarenlange expertise',
           'Vaste prijzen zonder verrassingen',
           'Garantie op alle renovatie werkzaamheden',
           'Projectmanagement en bouwbegeleiding',

@@ -13,7 +13,7 @@
 - `/algemene-voorwaarden`
 - `/privacy`
 - `/cookies`
-- `/lokale-aannemer`
+- `/lokale-vaklieden`
 
 ### Service Categories
 
@@ -28,11 +28,11 @@
 - `24-7-spoedservice` (12 cities)
 - `24-7-timmerman` (12 cities)
 
-#### Aannemer (Contractor) Services (25 pages)
-- Base: `aannemer`
+#### Vaklieden (Contractor) Services (25 pages)
+- Base: `vaklieden`
 - Cities: Rotterdam, Schiedam, Vlaardingen, Maassluis, Delft, Den Haag, Leiden, Dordrecht, Zoetermeer, Gouda, Alphen aan den Rijn
 - Additional: Zuid-Holland, In-de-buurt, In-de-regio, Barendrecht, Capelle aan den IJssel, Katwijk, Pijnacker-Nootdorp, Ridderkerk, Rijswijk, Spijkenisse, Voorburg, Westland
-- Regio pages: `aannemer-regio-{city}` (12 cities)
+- Regio pages: `vaklieden-regio-{city}` (12 cities)
 
 #### Aanbouw (Extension) (11 pages)
 - Base: `aanbouw`
@@ -187,7 +187,7 @@ All services are available in the following cities:
 ## Summary by Category
 
 - **24/7 Emergency Services**: 117 pages
-- **Aannemer Services**: 25 pages
+- **Vaklieden Services**: 25 pages
 - **Badkamer Services**: 61 pages
 - **Douchecabine Services**: 55 pages
 - **Douchescherm Services**: 48 pages

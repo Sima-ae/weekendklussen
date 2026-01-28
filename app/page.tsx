@@ -1,18 +1,18 @@
 import { Metadata } from 'next';
 import { Header } from '@/components/Header';
 import { HeroSection } from '@/components/HeroSection';
-import { ContentSections } from '@/components/ContentSections';
+import { HomePageContent } from '@/components/HomePageContent';
 import { Footer } from '@/components/Footer';
 import { StructuredData } from '@/components/StructuredData';
 import { generateLocalBusinessSchema } from '@/lib/metadata-utils';
 
 export const metadata: Metadata = {
-  title: 'Weekend Klussen – Aannemer voor Renovatie en Verbouwing in Zuid-Holland',
+  title: 'Weekend Klussen – Vaklieden voor Renovatie en Verbouwing in Zuid-Holland',
   description:
-    'Betrouwbare aannemer voor renovatie en verbouwing in Zuid-Holland. Weekend Klussen verzorgt badkamer verbouwen, keukenrenovatie, aanbouw, uitbouw, dakkapel plaatsen en complete woningverbouwing. Vaste prijzen, garantie en snelle service. Gratis offerte. Werkgebied: Rotterdam, Den Haag, Leiden, Dordrecht, Gouda, Delft, Schiedam, Vlaardingen en omgeving.',
+    'Professionele vaklieden voor renovatie en verbouwing in Zuid-Holland. Weekend Klussen verzorgt badkamer verbouwen, keukenrenovatie, aanbouw, uitbouw, dakkapel plaatsen en complete woningverbouwing. Vaste prijzen, garantie en snelle service. Gratis offerte. Werkgebied: Rotterdam, Den Haag, Leiden, Dordrecht, Gouda, Delft, Schiedam, Vlaardingen en omgeving.',
   keywords: [
-    'aannemer',
-    'aannemer Zuid-Holland',
+    'vaklieden',
+    'vaklieden Zuid-Holland',
     'bouwbedrijf',
     'verbouwing',
     'renovatie',
@@ -22,14 +22,14 @@ export const metadata: Metadata = {
     'aanbouw',
     'uitbouw',
     'dakkapel plaatsen',
-    'aannemer Rotterdam',
-    'aannemer Den Haag',
-    'aannemer Leiden',
-    'aannemer Dordrecht',
-    'aannemer Gouda',
-    'aannemer Delft',
+    'vaklieden Rotterdam',
+    'vaklieden Den Haag',
+    'vaklieden Leiden',
+    'vaklieden Dordrecht',
+    'vaklieden Gouda',
+    'vaklieden Delft',
     'gratis offerte',
-    'betrouwbare aannemer',
+    'betrouwbare vaklieden',
     'vaste prijzen',
     'garantie',
   ],
@@ -41,24 +41,24 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'nl_NL',
     url: 'https://weekend-klussen.nl',
-    title: 'Weekend Klussen – Betrouwbare Aannemer | Verbouwing & Renovatie Zuid-Holland',
+    title: 'Weekend Klussen – Betrouwbare Vaklieden | Verbouwing & Renovatie Zuid-Holland',
     description:
-      'Aannemer voor renovatie en verbouwing in Zuid-Holland. Verbouwing, renovatie, aanbouw, badkamer verbouwen, keukenrenovatie. Gratis offerte. Aannemer in Rotterdam, Den Haag, Leiden en regio.',
+      'Vaklieden voor renovatie en verbouwing in Zuid-Holland. Verbouwing, renovatie, aanbouw, badkamer verbouwen, keukenrenovatie. Gratis offerte. Vaklieden in Rotterdam, Den Haag, Leiden en regio.',
     siteName: 'Weekend Klussen',
     images: [
       {
         url: 'https://weekend-klussen.nl/images/Weblogo.png',
         width: 1200,
         height: 630,
-        alt: 'Weekend Klussen Aannemer Zuid-Holland',
+        alt: 'Weekend Klussen Vaklieden Zuid-Holland',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Weekend Klussen – Betrouwbare Aannemer Zuid-Holland',
+    title: 'Weekend Klussen – Betrouwbare Vaklieden Zuid-Holland',
     description:
-      'Aannemer voor renovatie en verbouwing in Zuid-Holland. Vaste prijzen, garantie en snelle service.',
+      'Vaklieden voor renovatie en verbouwing in Zuid-Holland. Vaste prijzen, garantie en snelle service.',
     images: ['https://weekend-klussen.nl/images/Weblogo.png'],
   },
   alternates: {
@@ -80,7 +80,7 @@ export default function Home() {
       <StructuredData data={structuredData} />
       <Header />
       <HeroSection />
-      <ContentSections />
+      <HomePageContent />
       <Footer />
     </main>
   );

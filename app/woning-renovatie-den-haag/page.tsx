@@ -6,7 +6,7 @@ import { generatePageMetadata } from '@/lib/metadata-utils';
 
 export const metadata: Metadata = generatePageMetadata({
   title: 'Woning Renovatie Den Haag | Weekend Klussen Woning Renovatie Den Haag',
-  description: 'Woning renovatie in Den Haag. Complete woningverbouwing en renovatie van uw woning. Ervaren aannemer met vaste prijzen. Gratis offerte.',
+  description: 'Woning renovatie in Den Haag. Complete woningverbouwing en renovatie van uw woning. Ervaren vaklieden met vaste prijzen. Gratis offerte.',
   location: 'Den Haag',
   service: 'woning renovatie',
   keywords: ['woning renovatie Den Haag', 'woning verbouwing Den Haag', 'woningrenovatie Den Haag', 'woning verbouwen Den Haag'],
@@ -35,7 +35,7 @@ export default function WoningRenovatieDenHaagPage() {
         nearbyCities={['Delft', 'Rijswijk', 'Rotterdam', 'Zoetermeer', 'Leiden', 'Voorburg']}
         serviceBenefits={[
           'Alles uit één hand, geen gedoe met meerdere partijen',
-          'Ervaren aannemer met jarenlange expertise',
+          'Ervaren vaklieden met jarenlange expertise',
           'Vaste prijzen zonder verrassingen',
           'Garantie op alle renovatie werkzaamheden',
           'Projectmanagement en bouwbegeleiding',

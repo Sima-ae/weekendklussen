@@ -43,11 +43,11 @@ const diensten = [
   },
 ];
 
-const waaromJemafix = [
+const waaromWeekendklussen = [
   'Vrijblijvend een offerte ontvangen binnen 24-48 uur',
-  'Betrouwbare aannemer met garantie',
+  'Betrouwbare vaklieden met garantie',
   'Voornamelijk actief in Zuid-Holland',
-  'Een aannemer die snel kan starten',
+  'Een vaklieden die snel kan starten',
   'Bouwadvies en bouwbegeleiding',
   'Vaste prijs, geen verrassingen',
 ];
@@ -84,14 +84,14 @@ export function ContentSections() {
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   className="bg-gray-50 rounded-xl p-6 sm:p-8 hover:shadow-lg transition-shadow border border-gray-100"
                 >
-                  <div className="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4">
-                    <Icon className="text-indigo-600" size={24} />
+                  <div className="w-12 h-12 bg-brown-100 rounded-lg flex items-center justify-center mb-4">
+                    <Icon className="text-brown-600" size={24} />
                   </div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">{item.title}</h3>
                   <p className="text-gray-600 mb-4">{item.description}</p>
                   <Link
                     href={item.href}
-                    className="inline-flex items-center gap-2 text-indigo-600 font-medium hover:gap-3 transition-all"
+                    className="inline-flex items-center gap-2 text-brown-600 font-medium hover:gap-3 transition-all"
                   >
                     Meer info <ArrowRight size={16} />
                   </Link>
@@ -108,7 +108,7 @@ export function ContentSections() {
           >
             <Link
               href="/diensten"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white rounded-lg font-semibold hover:bg-indigo-700 transition-colors"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-brown-600 text-white rounded-lg font-semibold hover:bg-brown-700 transition-colors"
             >
               Alle diensten <ArrowRight size={18} />
             </Link>
@@ -129,9 +129,9 @@ export function ContentSections() {
                 Over Weekend Klussen
               </h2>
               <p className="text-lg text-gray-600 mb-4">
-                Weekend Klussen is een betrouwbare aannemer en bouwbedrijf in de regio Zuid-Holland. Wij
+                Weekend Klussen is een betrouwbare vaklieden en bouwbedrijf in de regio Zuid-Holland. Wij
                 verzorgen verbouwing, renovatie, aanbouw en alle gerelateerde klussen. Of
-                u nu een aannemer nodig heeft voor een badkamer renovatie, keukenrenovatie of een aanbouw
+                u nu een vaklieden nodig heeft voor een badkamer renovatie, keukenrenovatie of een aanbouw
                 laten bouwen — wij zorgen voor verbouwing zonder gedoe.
               </p>
               <p className="text-lg text-gray-600 mb-6">
@@ -139,7 +139,7 @@ export function ContentSections() {
               </p>
               <Link
                 href="/over-ons"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white rounded-lg font-semibold hover:bg-indigo-700 transition-colors"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-brown-600 text-white rounded-lg font-semibold hover:bg-brown-700 transition-colors"
               >
                 Lees meer...<ArrowRight size={18} />
               </Link>
@@ -152,15 +152,15 @@ export function ContentSections() {
               className="bg-white rounded-xl p-8 shadow-lg border border-gray-100"
             >
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 bg-indigo-100 rounded-lg flex items-center justify-center">
-                  <ShieldCheck className="text-indigo-600" size={20} />
+                <div className="w-10 h-10 bg-brown-100 rounded-lg flex items-center justify-center">
+                  <ShieldCheck className="text-brown-600" size={20} />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900">Waarom Weekend Klussen?</h3>
               </div>
               <ul className="space-y-3">
-                {waaromJemafix.map((item) => (
+                {waaromWeekendklussen.map((item) => (
                   <li key={item} className="flex items-start gap-3 text-gray-700">
-                    <span className="w-2 h-2 bg-indigo-500 rounded-full mt-1.5 shrink-0" />
+                    <span className="w-2 h-2 bg-brown-500 rounded-full mt-1.5 shrink-0" />
                     {item}
                   </li>
                 ))}
@@ -170,7 +170,7 @@ export function ContentSections() {
         </div>
       </section>
 
-      <section id="offerte" className="py-20 sm:py-24 bg-indigo-600">
+      <section id="offerte" className="py-20 sm:py-24 bg-brown-600">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 24 }}
@@ -182,13 +182,13 @@ export function ContentSections() {
               <FileText className="text-white" size={28} />
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Een aannemer nodig?
+            Een vaklieden nodig?
             </h2>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/offerte"
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-indigo-600 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors shadow-lg"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-brown-600 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors shadow-lg"
               >
                 Offerte aanvragen <ArrowRight size={20} />
               </Link>

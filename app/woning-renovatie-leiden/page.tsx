@@ -6,7 +6,7 @@ import { generatePageMetadata } from '@/lib/metadata-utils';
 
 export const metadata: Metadata = generatePageMetadata({
   title: 'Woning Renovatie Leiden | Weekend Klussen Woning Renovatie Leiden',
-  description: 'Woning renovatie in Leiden. Complete woningverbouwing en renovatie van uw woning. Ervaren aannemer met vaste prijzen. Gratis offerte.',
+  description: 'Woning renovatie in Leiden. Complete woningverbouwing en renovatie van uw woning. Ervaren vaklieden met vaste prijzen. Gratis offerte.',
   location: 'Leiden',
   service: 'woning renovatie',
   keywords: ['woning renovatie Leiden', 'woning verbouwing Leiden', 'woningrenovatie Leiden', 'woning verbouwen Leiden'],
@@ -35,7 +35,7 @@ export default function WoningRenovatieLeidenPage() {
         nearbyCities={['Den Haag', 'Delft', 'Zoetermeer', 'Gouda', 'Alphen aan den Rijn', 'Katwijk']}
         serviceBenefits={[
           'Alles uit één hand, geen gedoe met meerdere partijen',
-          'Ervaren aannemer met jarenlange expertise',
+          'Ervaren vaklieden met jarenlange expertise',
           'Vaste prijzen zonder verrassingen',
           'Garantie op alle renovatie werkzaamheden',
           'Projectmanagement en bouwbegeleiding',

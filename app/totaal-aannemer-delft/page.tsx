@@ -5,23 +5,23 @@ import { ServiceLocationContent } from '@/components/pages/ServiceLocationConten
 import { generatePageMetadata } from '@/lib/metadata-utils';
 
 export const metadata: Metadata = generatePageMetadata({
-  title: 'Totaal Aannemer Delft | Weekend Klussen Totaal Aannemer Delft',
-  description: 'Totaal aannemer voor complete bouw- en renovatieprojecten in Delft. Van ontwerp tot oplevering, alles uit één hand. Ervaren aannemer met vaste prijzen. Gratis offerte.',
+  title: 'Totaal Vaklieden Delft | Weekend Klussen Totaal Vaklieden Delft',
+  description: 'Totaal vaklieden voor complete bouw- en renovatieprojecten in Delft. Van ontwerp tot oplevering, alles uit één hand. Ervaren vaklieden met vaste prijzen. Gratis offerte.',
   location: 'Delft',
-  service: 'totaal aannemer',
-  keywords: ['totaal aannemer Delft', 'complete aannemer Delft', 'totaal aannemer service Delft', 'aannemer alles uit één hand Delft'],
+  service: 'totaal vaklieden',
+  keywords: ['totaal vaklieden Delft', 'complete vaklieden Delft', 'totaal vaklieden service Delft', 'vaklieden alles uit één hand Delft'],
 });
 
-export default function TotaalAannemerDelftPage() {
+export default function TotaalVakliedenDelftPage() {
   return (
     <main className="relative w-full flex-1 flex flex-col pt-14 sm:pt-16">
       <Header />
       <ServiceLocationContent
         location="Delft"
-        service="Totaal Aannemer"
-        title="Totaal Aannemer Delft"
-        description="Totaal aannemer voor complete bouw- en renovatieprojecten in Delft. Weekend Klussen verzorgt alles uit één hand: van ontwerp tot oplevering. Ervaren aannemer met vaste prijzen en garantie."
-        serviceDescription="Weekend Klussen is uw totaal aannemer in Delft. Wij verzorgen complete bouw- en renovatieprojecten van A tot Z in Delft. Van het eerste ontwerp tot de uiteindelijke oplevering - alles wordt door ons geregeld. Of u nu een complete woningverbouwing, totaalrenovatie, of nieuwbouw project heeft - wij staan voor u klaar in Delft."
+        service="Totaal Vaklieden"
+        title="Totaal Vaklieden Delft"
+        description="Totaal vaklieden voor complete bouw- en renovatieprojecten in Delft. Weekend Klussen verzorgt alles uit één hand: van ontwerp tot oplevering. Ervaren vaklieden met vaste prijzen en garantie."
+        serviceDescription="Weekend Klussen is uw totaal vaklieden in Delft. Wij verzorgen complete bouw- en renovatieprojecten van A tot Z in Delft. Van het eerste ontwerp tot de uiteindelijke oplevering - alles wordt door ons geregeld. Of u nu een complete woningverbouwing, totaalrenovatie, of nieuwbouw project heeft - wij staan voor u klaar in Delft."
         serviceDetails={[
           'Complete woningverbouwing en totaalrenovatie Delft',
           'Nieuwbouw projecten en uitbreidingen',
@@ -35,7 +35,7 @@ export default function TotaalAannemerDelftPage() {
         nearbyCities={['Den Haag', 'Rijswijk', 'Rotterdam', 'Pijnacker-Nootdorp', 'Zoetermeer', 'Leiden']}
         serviceBenefits={[
           'Alles uit één hand, geen gedoe met meerdere partijen',
-          'Ervaren aannemer met jarenlange expertise',
+          'Ervaren vaklieden met jarenlange expertise',
           'Vaste prijzen zonder verrassingen',
           'Garantie op alle werkzaamheden',
           'Projectmanagement en bouwbegeleiding',

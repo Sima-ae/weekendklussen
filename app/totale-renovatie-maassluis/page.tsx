@@ -6,7 +6,7 @@ import { generatePageMetadata } from '@/lib/metadata-utils';
 
 export const metadata: Metadata = generatePageMetadata({
   title: 'Totale Renovatie Maassluis | Weekend Klussen Totale Renovatie Maassluis',
-  description: 'Totale renovatie van uw woning in Maassluis. Complete woningverbouwing van A tot Z. Ervaren aannemer met vaste prijzen. Gratis offerte.',
+  description: 'Totale renovatie van uw woning in Maassluis. Complete woningverbouwing van A tot Z. Ervaren vaklieden met vaste prijzen. Gratis offerte.',
   location: 'Maassluis',
   service: 'totale renovatie',
   keywords: ['totale renovatie Maassluis', 'complete renovatie Maassluis', 'totaalrenovatie Maassluis', 'woningverbouwing Maassluis'],
@@ -35,7 +35,7 @@ export default function TotaleRenovatieMaassluisPage() {
         nearbyCities={['Rotterdam', 'Schiedam', 'Vlaardingen', 'Delft', 'Den Haag', 'Hoek van Holland']}
         serviceBenefits={[
           'Alles uit één hand, geen gedoe met meerdere partijen',
-          'Ervaren aannemer met jarenlange expertise',
+          'Ervaren vaklieden met jarenlange expertise',
           'Vaste prijzen zonder verrassingen',
           'Garantie op alle renovatie werkzaamheden',
           'Projectmanagement en bouwbegeleiding',

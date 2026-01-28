@@ -5,23 +5,23 @@ import { ServiceLocationContent } from '@/components/pages/ServiceLocationConten
 import { generatePageMetadata } from '@/lib/metadata-utils';
 
 export const metadata: Metadata = generatePageMetadata({
-  title: 'Totaal Aannemer Zoetermeer | Weekend Klussen Totaal Aannemer Zoetermeer',
-  description: 'Totaal aannemer voor complete bouw- en renovatieprojecten in Zoetermeer. Van ontwerp tot oplevering, alles uit één hand. Ervaren aannemer met vaste prijzen. Gratis offerte.',
+  title: 'Totaal Vaklieden Zoetermeer | Weekend Klussen Totaal Vaklieden Zoetermeer',
+  description: 'Totaal vaklieden voor complete bouw- en renovatieprojecten in Zoetermeer. Van ontwerp tot oplevering, alles uit één hand. Ervaren vaklieden met vaste prijzen. Gratis offerte.',
   location: 'Zoetermeer',
-  service: 'totaal aannemer',
-  keywords: ['totaal aannemer Zoetermeer', 'complete aannemer Zoetermeer', 'totaal aannemer service Zoetermeer', 'aannemer alles uit één hand Zoetermeer'],
+  service: 'totaal vaklieden',
+  keywords: ['totaal vaklieden Zoetermeer', 'complete vaklieden Zoetermeer', 'totaal vaklieden service Zoetermeer', 'vaklieden alles uit één hand Zoetermeer'],
 });
 
-export default function TotaalAannemerZoetermeerPage() {
+export default function TotaalVakliedenZoetermeerPage() {
   return (
     <main className="relative w-full flex-1 flex flex-col pt-14 sm:pt-16">
       <Header />
       <ServiceLocationContent
         location="Zoetermeer"
-        service="Totaal Aannemer"
-        title="Totaal Aannemer Zoetermeer"
-        description="Totaal aannemer voor complete bouw- en renovatieprojecten in Zoetermeer. Weekend Klussen verzorgt alles uit één hand: van ontwerp tot oplevering. Ervaren aannemer met vaste prijzen en garantie."
-        serviceDescription="Weekend Klussen is uw totaal aannemer in Zoetermeer. Wij verzorgen complete bouw- en renovatieprojecten van A tot Z in Zoetermeer. Van het eerste ontwerp tot de uiteindelijke oplevering - alles wordt door ons geregeld. Of u nu een complete woningverbouwing, totaalrenovatie, of nieuwbouw project heeft - wij staan voor u klaar in Zoetermeer."
+        service="Totaal Vaklieden"
+        title="Totaal Vaklieden Zoetermeer"
+        description="Totaal vaklieden voor complete bouw- en renovatieprojecten in Zoetermeer. Weekend Klussen verzorgt alles uit één hand: van ontwerp tot oplevering. Ervaren vaklieden met vaste prijzen en garantie."
+        serviceDescription="Weekend Klussen is uw totaal vaklieden in Zoetermeer. Wij verzorgen complete bouw- en renovatieprojecten van A tot Z in Zoetermeer. Van het eerste ontwerp tot de uiteindelijke oplevering - alles wordt door ons geregeld. Of u nu een complete woningverbouwing, totaalrenovatie, of nieuwbouw project heeft - wij staan voor u klaar in Zoetermeer."
         serviceDetails={[
           'Complete woningverbouwing en totaalrenovatie Zoetermeer',
           'Nieuwbouw projecten en uitbreidingen',
@@ -35,7 +35,7 @@ export default function TotaalAannemerZoetermeerPage() {
         nearbyCities={['Den Haag', 'Delft', 'Leiden', 'Gouda', 'Pijnacker-Nootdorp', 'Rijswijk']}
         serviceBenefits={[
           'Alles uit één hand, geen gedoe met meerdere partijen',
-          'Ervaren aannemer met jarenlange expertise',
+          'Ervaren vaklieden met jarenlange expertise',
           'Vaste prijzen zonder verrassingen',
           'Garantie op alle werkzaamheden',
           'Projectmanagement en bouwbegeleiding',

@@ -6,7 +6,7 @@ import { generatePageMetadata } from '@/lib/metadata-utils';
 
 export const metadata: Metadata = generatePageMetadata({
   title: 'Totale Renovatie Rotterdam | Weekend Klussen Totale Renovatie Rotterdam',
-  description: 'Totale renovatie van uw woning in Rotterdam. Complete woningverbouwing van A tot Z. Ervaren aannemer met vaste prijzen. Gratis offerte.',
+  description: 'Totale renovatie van uw woning in Rotterdam. Complete woningverbouwing van A tot Z. Ervaren vaklieden met vaste prijzen. Gratis offerte.',
   location: 'Rotterdam',
   service: 'totale renovatie',
   keywords: ['totale renovatie Rotterdam', 'complete renovatie Rotterdam', 'totaalrenovatie Rotterdam', 'woningverbouwing Rotterdam'],
@@ -35,7 +35,7 @@ export default function TotaleRenovatieRotterdamPage() {
         nearbyCities={['Schiedam', 'Vlaardingen', 'Maassluis', 'Delft', 'Den Haag', 'Capelle aan den IJssel', 'Ridderkerk']}
         serviceBenefits={[
           'Alles uit één hand, geen gedoe met meerdere partijen',
-          'Ervaren aannemer met jarenlange expertise',
+          'Ervaren vaklieden met jarenlange expertise',
           'Vaste prijzen zonder verrassingen',
           'Garantie op alle renovatie werkzaamheden',
           'Projectmanagement en bouwbegeleiding',

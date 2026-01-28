@@ -6,7 +6,7 @@ import { generatePageMetadata } from '@/lib/metadata-utils';
 
 export const metadata: Metadata = generatePageMetadata({
   title: 'Totale Renovatie Alphen aan den Rijn | Weekend Klussen Totale Renovatie Alphen aan den Rijn',
-  description: 'Totale renovatie van uw woning in Alphen aan den Rijn. Complete woningverbouwing van A tot Z. Ervaren aannemer met vaste prijzen. Gratis offerte.',
+  description: 'Totale renovatie van uw woning in Alphen aan den Rijn. Complete woningverbouwing van A tot Z. Ervaren vaklieden met vaste prijzen. Gratis offerte.',
   location: 'Alphen aan den Rijn',
   service: 'totale renovatie',
   keywords: ['totale renovatie Alphen aan den Rijn', 'complete renovatie Alphen aan den Rijn', 'totaalrenovatie Alphen aan den Rijn', 'woningverbouwing Alphen aan den Rijn'],
@@ -35,7 +35,7 @@ export default function TotaleRenovatieAlphenAanDenRijnPage() {
         nearbyCities={['Leiden', 'Gouda', 'Zoetermeer', 'Bodegraven', 'Woerden', 'Utrecht']}
         serviceBenefits={[
           'Alles uit één hand, geen gedoe met meerdere partijen',
-          'Ervaren aannemer met jarenlange expertise',
+          'Ervaren vaklieden met jarenlange expertise',
           'Vaste prijzen zonder verrassingen',
           'Garantie op alle renovatie werkzaamheden',
           'Projectmanagement en bouwbegeleiding',

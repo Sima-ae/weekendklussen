@@ -6,19 +6,19 @@ import { StructuredData } from '@/components/StructuredData';
 import { generateLocalBusinessSchema } from '@/lib/metadata-utils';
 
 export const metadata: Metadata = {
-  title: 'Gratis Offerte Aanvragen | Weekend Klussen Aannemer Zuid-Holland',
+  title: 'Gratis Offerte Aanvragen | Weekend Klussen Vaklieden Zuid-Holland',
   description:
-    'Vraag vrijblijvend een gratis offerte aan bij Weekend Klussen aannemer in Zuid-Holland. Offerte binnen 24-48 uur voor verbouwing, renovatie, badkamer verbouwen, keukenrenovatie, aanbouw, uitbouw en meer. Geen verplichtingen, transparante prijzen. Vul het formulier in voor snelle reactie.',
+    'Vraag vrijblijvend een gratis offerte aan bij Weekend Klussen vaklieden in Zuid-Holland. Offerte binnen 24-48 uur voor verbouwing, renovatie, badkamer verbouwen, keukenrenovatie, aanbouw, uitbouw en meer. Geen verplichtingen, transparante prijzen. Vul het formulier in voor snelle reactie.',
   keywords: [
     'gratis offerte',
     'offerte aanvragen',
-    'offerte aannemer',
+    'offerte vaklieden',
     'verbouwing offerte',
     'renovatie offerte',
     'aanbouw offerte',
     'badkamer offerte',
     'keuken offerte',
-    'aannemer offerte',
+    'vaklieden offerte',
     'bouwbedrijf offerte',
     'Zuid-Holland',
     'vrijblijvend offerte',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'nl_NL',
     url: 'https://weekend-klussen.nl/offerte',
-    title: 'Gratis Offerte Aanvragen | Weekend Klussen Aannemer',
+    title: 'Gratis Offerte Aanvragen | Weekend Klussen Vaklieden',
     description:
       'Vraag vrijblijvend een gratis offerte aan. Offerte binnen 24-48 uur voor verbouwing, renovatie en meer.',
     siteName: 'Weekend Klussen',

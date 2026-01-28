@@ -41,7 +41,7 @@ export function PopupOverlay() {
                 bg-white dark:bg-slate-900
                 shadow-[0_20px_60px_rgba(0,0,0,0.18),0_4px_16px_rgba(0,0,0,0.1)]
                 border border-slate-200/80 dark:border-slate-600/60
-                border-l-4 border-l-indigo-500
+                border-l-4 border-l-brown-500
               "
             >
               <p

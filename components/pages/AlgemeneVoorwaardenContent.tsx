@@ -40,7 +40,7 @@ export function AlgemeneVoorwaardenContent() {
         >
           <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Definities</h2>
           <ul className="list-disc pl-6 space-y-2">
-            <li><strong>Weekend Klussen:</strong> De aannemer, bouwbedrijf of dienstverlener die de werkzaamheden uitvoert</li>
+            <li><strong>Weekend Klussen:</strong> De vaklieden, bouwbedrijf of dienstverlener die de werkzaamheden uitvoert</li>
             <li><strong>Opdrachtgever:</strong> De natuurlijke persoon of rechtspersoon die Weekend Klussen opdracht geeft tot het uitvoeren van werkzaamheden</li>
             <li><strong>Overeenkomst:</strong> De overeenkomst tussen Weekend Klussen en de opdrachtgever betreffende de uitvoering van werkzaamheden</li>
             <li><strong>Werkzaamheden:</strong> Alle door Weekend Klussen uit te voeren werkzaamheden, waaronder maar niet beperkt tot: verbouwing, renovatie, aanbouw, uitbouw, badkamer verbouwen, keukenrenovatie, onderhoud en alle daaraan gerelateerde diensten</li>
@@ -137,7 +137,7 @@ export function AlgemeneVoorwaardenContent() {
           
           <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-6">6.1 Uitvoering</h3>
           <p className="mb-4">
-            Weekend Klussen voert de werkzaamheden uit volgens de geldende normen en voorschriften en met de zorg van een goed aannemer. Weekend Klussen bepaalt de wijze van uitvoering, tenzij anders overeengekomen.
+            Weekend Klussen voert de werkzaamheden uit volgens de geldende normen en voorschriften en met de zorg van een goed vaklieden. Weekend Klussen bepaalt de wijze van uitvoering, tenzij anders overeengekomen.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-6">6.2 Medewerking opdrachtgever</h3>
@@ -350,10 +350,10 @@ export function AlgemeneVoorwaardenContent() {
           <p className="mb-4">
             Voor vragen over deze algemene voorwaarden of over onze diensten, kunt u contact met ons opnemen:
           </p>
-          <div className="bg-indigo-50 p-6 rounded-lg">
+          <div className="bg-brown-50 p-6 rounded-lg">
             <p className="font-semibold text-lg mb-3">Weekend Klussen</p>
-            <p className="mb-2">E-mail: <a href="mailto:info@weekend-klussen.nl" className="text-indigo-600 hover:underline font-medium">info@weekend-klussen.nl</a></p>
-            <p>Telefoon: <a href="tel:+31642502442" className="text-indigo-600 hover:underline font-medium">+31642502442</a></p>
+            <p className="mb-2">E-mail: <a href="mailto:info@weekend-klussen.nl" className="text-brown-600 hover:underline font-medium">info@weekend-klussen.nl</a></p>
+            <p>Telefoon: <a href="tel:+31642502442" className="text-brown-600 hover:underline font-medium">+31642502442</a></p>
             <p className="mt-4 text-sm text-gray-600">
               Werkgebied: Zuid-Holland (Rotterdam, Den Haag, Leiden, Dordrecht, Gouda, Delft en omgeving)
             </p>
@@ -369,7 +369,7 @@ export function AlgemeneVoorwaardenContent() {
       >
         <Link
           href="/"
-          className="inline-flex items-center gap-2 text-indigo-600 font-medium hover:underline"
+          className="inline-flex items-center gap-2 text-brown-600 font-medium hover:underline"
         >
           ← Terug naar home
         </Link>

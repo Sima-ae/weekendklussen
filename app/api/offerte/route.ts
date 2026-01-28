@@ -56,7 +56,7 @@ export async function POST(request: NextRequest) {
                 padding: 20px;
               }
               .header {
-                background-color: #4f46e5;
+                background-color: #5f3813;
                 color: white;
                 padding: 20px;
                 border-radius: 8px 8px 0 0;
@@ -74,7 +74,7 @@ export async function POST(request: NextRequest) {
               }
               .label {
                 font-weight: bold;
-                color: #4f46e5;
+                color: #5f3813;
                 display: block;
                 margin-bottom: 5px;
               }

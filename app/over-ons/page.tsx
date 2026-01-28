@@ -6,20 +6,20 @@ import { StructuredData } from '@/components/StructuredData';
 import { generateLocalBusinessSchema } from '@/lib/metadata-utils';
 
 export const metadata: Metadata = {
-  title: 'Over ons – Weekend Klussen Aannemer Zuid-Holland | Betrouwbare Bouwbedrijf',
+  title: 'Over ons – Weekend Klussen Vaklieden Zuid-Holland | Betrouwbare Bouwbedrijf',
   description:
-    'Weekend Klussen is een betrouwbare aannemer en bouwbedrijf in Zuid-Holland. Met jarenlange ervaring verzorgen wij verbouwing, renovatie, aanbouw, badkamer verbouwen en keukenrenovatie. Vaste prijzen, garantie en snelle service. Werkgebied: Rotterdam, Den Haag, Leiden, Dordrecht, Gouda, Delft, Schiedam, Vlaardingen en omgeving. Gratis offerte.',
+    'Weekend Klussen is een betrouwbare vaklieden en bouwbedrijf in Zuid-Holland. Met jarenlange ervaring verzorgen wij verbouwing, renovatie, aanbouw, badkamer verbouwen en keukenrenovatie. Vaste prijzen, garantie en snelle service. Werkgebied: Rotterdam, Den Haag, Leiden, Dordrecht, Gouda, Delft, Schiedam, Vlaardingen en omgeving. Gratis offerte.',
   keywords: [
     'over Weekend Klussen',
-    'aannemer Zuid-Holland',
+    'vaklieden Zuid-Holland',
     'bouwbedrijf Zuid-Holland',
-    'betrouwbare aannemer',
-    'aannemer Rotterdam',
-    'aannemer Den Haag',
-    'aannemer Leiden',
-    'aannemer Dordrecht',
-    'aannemer Gouda',
-    'aannemer Delft',
+    'betrouwbare vaklieden',
+    'vaklieden Rotterdam',
+    'vaklieden Den Haag',
+    'vaklieden Leiden',
+    'vaklieden Dordrecht',
+    'vaklieden Gouda',
+    'vaklieden Delft',
     'vaste prijzen',
     'garantie',
     'bouwbedrijf',
@@ -32,9 +32,9 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'nl_NL',
     url: 'https://weekend-klussen.nl/over-ons',
-    title: 'Over ons – Weekend Klussen Aannemer Zuid-Holland',
+    title: 'Over ons – Weekend Klussen Vaklieden Zuid-Holland',
     description:
-      'Betrouwbare aannemer en bouwbedrijf in Zuid-Holland. Verbouwing, renovatie, aanbouw met vaste prijzen en garantie.',
+      'Betrouwbare vaklieden en bouwbedrijf in Zuid-Holland. Verbouwing, renovatie, aanbouw met vaste prijzen en garantie.',
     siteName: 'Weekend Klussen',
     images: [
       {
@@ -47,9 +47,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Over ons – Weekend Klussen Aannemer',
+    title: 'Over ons – Weekend Klussen Vaklieden',
     description:
-      'Betrouwbare aannemer en bouwbedrijf in Zuid-Holland met jarenlange ervaring.',
+      'Betrouwbare vaklieden en bouwbedrijf in Zuid-Holland met jarenlange ervaring.',
     images: ['https://weekend-klussen.nl/images/Weblogo.png'],
   },
   alternates: {

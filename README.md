@@ -1,4 +1,4 @@
-# Jemafix - 3D Physics Simulation
+# Weekendklussen - 3D Physics Simulation
 
 A modern, interactive 3D physics simulation application built with Next.js 14, React Three Fiber, and Rapier physics engine. Inspired by Google Antigravity.
 

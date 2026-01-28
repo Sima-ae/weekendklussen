@@ -5,23 +5,23 @@ import { ServiceLocationContent } from '@/components/pages/ServiceLocationConten
 import { generatePageMetadata } from '@/lib/metadata-utils';
 
 export const metadata: Metadata = generatePageMetadata({
-  title: 'Totaal Aannemer Schiedam | Weekend Klussen Totaal Aannemer Schiedam',
-  description: 'Totaal aannemer voor complete bouw- en renovatieprojecten in Schiedam. Van ontwerp tot oplevering, alles uit één hand. Ervaren aannemer met vaste prijzen. Gratis offerte.',
+  title: 'Totaal Vaklieden Schiedam | Weekend Klussen Totaal Vaklieden Schiedam',
+  description: 'Totaal vaklieden voor complete bouw- en renovatieprojecten in Schiedam. Van ontwerp tot oplevering, alles uit één hand. Ervaren vaklieden met vaste prijzen. Gratis offerte.',
   location: 'Schiedam',
-  service: 'totaal aannemer',
-  keywords: ['totaal aannemer Schiedam', 'complete aannemer Schiedam', 'totaal aannemer service Schiedam', 'aannemer alles uit één hand Schiedam'],
+  service: 'totaal vaklieden',
+  keywords: ['totaal vaklieden Schiedam', 'complete vaklieden Schiedam', 'totaal vaklieden service Schiedam', 'vaklieden alles uit één hand Schiedam'],
 });
 
-export default function TotaalAannemerSchiedamPage() {
+export default function TotaalVakliedenSchiedamPage() {
   return (
     <main className="relative w-full flex-1 flex flex-col pt-14 sm:pt-16">
       <Header />
       <ServiceLocationContent
         location="Schiedam"
-        service="Totaal Aannemer"
-        title="Totaal Aannemer Schiedam"
-        description="Totaal aannemer voor complete bouw- en renovatieprojecten in Schiedam. Weekend Klussen verzorgt alles uit één hand: van ontwerp tot oplevering. Ervaren aannemer met vaste prijzen en garantie."
-        serviceDescription="Weekend Klussen is uw totaal aannemer in Schiedam. Wij verzorgen complete bouw- en renovatieprojecten van A tot Z in Schiedam. Van het eerste ontwerp tot de uiteindelijke oplevering - alles wordt door ons geregeld. Of u nu een complete woningverbouwing, totaalrenovatie, of nieuwbouw project heeft - wij staan voor u klaar in Schiedam."
+        service="Totaal Vaklieden"
+        title="Totaal Vaklieden Schiedam"
+        description="Totaal vaklieden voor complete bouw- en renovatieprojecten in Schiedam. Weekend Klussen verzorgt alles uit één hand: van ontwerp tot oplevering. Ervaren vaklieden met vaste prijzen en garantie."
+        serviceDescription="Weekend Klussen is uw totaal vaklieden in Schiedam. Wij verzorgen complete bouw- en renovatieprojecten van A tot Z in Schiedam. Van het eerste ontwerp tot de uiteindelijke oplevering - alles wordt door ons geregeld. Of u nu een complete woningverbouwing, totaalrenovatie, of nieuwbouw project heeft - wij staan voor u klaar in Schiedam."
         serviceDetails={[
           'Complete woningverbouwing en totaalrenovatie Schiedam',
           'Nieuwbouw projecten en uitbreidingen',
@@ -35,7 +35,7 @@ export default function TotaalAannemerSchiedamPage() {
         nearbyCities={['Rotterdam', 'Vlaardingen', 'Maassluis', 'Delft', 'Den Haag', 'Dordrecht']}
         serviceBenefits={[
           'Alles uit één hand, geen gedoe met meerdere partijen',
-          'Ervaren aannemer met jarenlange expertise',
+          'Ervaren vaklieden met jarenlange expertise',
           'Vaste prijzen zonder verrassingen',
           'Garantie op alle werkzaamheden',
           'Projectmanagement en bouwbegeleiding',

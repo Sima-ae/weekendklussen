@@ -6,7 +6,7 @@ import { generatePageMetadata } from '@/lib/metadata-utils';
 
 export const metadata: Metadata = generatePageMetadata({
   title: 'Totale Renovatie Dordrecht | Weekend Klussen Totale Renovatie Dordrecht',
-  description: 'Totale renovatie van uw woning in Dordrecht. Complete woningverbouwing van A tot Z. Ervaren aannemer met vaste prijzen. Gratis offerte.',
+  description: 'Totale renovatie van uw woning in Dordrecht. Complete woningverbouwing van A tot Z. Ervaren vaklieden met vaste prijzen. Gratis offerte.',
   location: 'Dordrecht',
   service: 'totale renovatie',
   keywords: ['totale renovatie Dordrecht', 'complete renovatie Dordrecht', 'totaalrenovatie Dordrecht', 'woningverbouwing Dordrecht'],
@@ -35,7 +35,7 @@ export default function TotaleRenovatieDordrechtPage() {
         nearbyCities={['Rotterdam', 'Schiedam', 'Gouda', 'Zwijndrecht', 'Papendrecht', 'Sliedrecht']}
         serviceBenefits={[
           'Alles uit één hand, geen gedoe met meerdere partijen',
-          'Ervaren aannemer met jarenlange expertise',
+          'Ervaren vaklieden met jarenlange expertise',
           'Vaste prijzen zonder verrassingen',
           'Garantie op alle renovatie werkzaamheden',
           'Projectmanagement en bouwbegeleiding',

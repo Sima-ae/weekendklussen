@@ -31,28 +31,28 @@ export function ContactContent() {
         >
           <a
             href="tel:+31642502442"
-            className="flex items-start gap-4 p-5 bg-gray-50 rounded-xl border border-gray-100 hover:border-indigo-200 hover:bg-indigo-50/50 transition-colors"
+            className="flex items-start gap-4 p-5 bg-gray-50 rounded-xl border border-gray-100 hover:border-brown-200 hover:bg-brown-50/50 transition-colors"
           >
-            <div className="w-10 h-10 bg-indigo-100 rounded-lg flex items-center justify-center shrink-0">
-              <Phone className="text-indigo-600" size={20} />
+            <div className="w-10 h-10 bg-brown-100 rounded-lg flex items-center justify-center shrink-0">
+              <Phone className="text-brown-600" size={20} />
             </div>
             <div>
               <h2 className="font-semibold text-gray-900 mb-1">Bellen</h2>
               <p className="text-gray-600 text-sm">Bel voor spoed of een snelle vraag.</p>
-              <p className="text-indigo-600 font-medium mt-1">+31642502442</p>
+              <p className="text-brown-600 font-medium mt-1">+31642502442</p>
             </div>
           </a>
           <a
             href="mailto:info@weekend-klussen.nl"
-            className="flex items-start gap-4 p-5 bg-gray-50 rounded-xl border border-gray-100 hover:border-indigo-200 hover:bg-indigo-50/50 transition-colors"
+            className="flex items-start gap-4 p-5 bg-gray-50 rounded-xl border border-gray-100 hover:border-brown-200 hover:bg-brown-50/50 transition-colors"
           >
-            <div className="w-10 h-10 bg-indigo-100 rounded-lg flex items-center justify-center shrink-0">
-              <Mail className="text-indigo-600" size={20} />
+            <div className="w-10 h-10 bg-brown-100 rounded-lg flex items-center justify-center shrink-0">
+              <Mail className="text-brown-600" size={20} />
             </div>
             <div>
               <h2 className="font-semibold text-gray-900 mb-1">E-mail</h2>
               <p className="text-gray-600 text-sm">Stuur een bericht voor offerte of informatie.</p>
-              <p className="text-indigo-600 font-medium mt-1">info@weekend-klussen.nl</p>
+              <p className="text-brown-600 font-medium mt-1">info@weekend-klussen.nl</p>
             </div>
           </a>
         </motion.div>
@@ -61,15 +61,15 @@ export function ContactContent() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="p-6 sm:p-8 bg-indigo-50 rounded-xl border border-indigo-100 text-center"
+          className="p-6 sm:p-8 bg-brown-50 rounded-xl border border-brown-100 text-center"
         >
-          <div className="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mx-auto mb-3">
-            <FileText className="text-indigo-600" size={24} />
+          <div className="w-12 h-12 bg-brown-100 rounded-lg flex items-center justify-center mx-auto mb-3">
+            <FileText className="text-brown-600" size={24} />
           </div>
           <h2 className="text-xl font-bold text-gray-900 mb-4">Direct een offerte aanvragen?</h2>
           <Link
             href="/offerte"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white rounded-lg font-semibold hover:bg-indigo-700 transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-brown-600 text-white rounded-lg font-semibold hover:bg-brown-700 transition-colors"
           >
             Klik hier <ArrowRight size={18} />
           </Link>

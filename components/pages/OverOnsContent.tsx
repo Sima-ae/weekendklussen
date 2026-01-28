@@ -5,19 +5,19 @@ import Link from 'next/link';
 
 const waarom = [
   {
-    title: 'Betrouwbare aannemer met garantie',
-    text: 'Wij willen als betrouwbare aannemer gevonden worden. Vaste prijzen, duidelijke afspraken en garantie op ons werk.',
+    title: 'Betrouwbare vaklieden met garantie',
+    text: 'Wij willen als betrouwbare vaklieden gevonden worden. Vaste prijzen, duidelijke afspraken en garantie op ons werk.',
   },
   {
     title: 'Snel kunnen starten',
-    text: 'Aannemer die snel kan starten. Geen maanden wachten: wij plannen flexibel en houden ons aan afgesproken data.',
+    text: 'Vaklieden die snel kan starten. Geen maanden wachten: wij plannen flexibel en houden ons aan afgesproken data.',
   },
   {
     title: 'Gratis offerte, duidelijk en snel',
-    text: 'Offerte aannemer binnen 24 uur. Geen gedoe: transparante offerte, geen verborgen kosten. Verbouwing zonder gedoe.',
+    text: 'Offerte vaklieden binnen 24 uur. Geen gedoe: transparante offerte, geen verborgen kosten. Verbouwing zonder gedoe.',
   },
   {
-    title: 'Lokale aannemer in de buurt',
+    title: 'Lokale vaklieden in de buurt',
     text: 'Weekend Klussen is voornamelijk actief in Zuid-Holland.',
   },
 ];
@@ -33,7 +33,7 @@ export function OverOnsContent() {
       >
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Over Weekend Klussen</h1>
         <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-          Weekend Klussen is een betrouwbare aannemer en bouwbedrijf met jarenlange ervaring in de regio Zuid-Holland. Wij staan bekend om onze professionele aanpak, vaste prijzen en uitstekende service.
+          Weekend Klussen is een betrouwbare vaklieden en bouwbedrijf met jarenlange ervaring in de regio Zuid-Holland. Wij staan bekend om onze professionele aanpak, vaste prijzen en uitstekende service.
         </p>
       </motion.div>
 
@@ -47,7 +47,7 @@ export function OverOnsContent() {
           <div>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Wie zijn wij?</h2>
             <p className="text-gray-700 mb-4">
-              Weekend Klussen is een betrouwbare aannemer en bouwbedrijf in de regio Zuid-Holland. Wij verzorgen verbouwing, renovatie, aanbouw en alle gerelateerde klussen voor particulieren en bedrijven. Of u nu een aannemer nodig heeft voor een badkamer renovatie, keukenrenovatie of een aanbouw laten bouwen — wij zorgen voor verbouwing zonder gedoe.
+              Weekend Klussen is een betrouwbare vaklieden en bouwbedrijf in de regio Zuid-Holland. Wij verzorgen verbouwing, renovatie, aanbouw en alle gerelateerde klussen voor particulieren en bedrijven. Of u nu een vaklieden nodig heeft voor een badkamer renovatie, keukenrenovatie of een aanbouw laten bouwen — wij zorgen voor verbouwing zonder gedoe.
             </p>
             <p className="text-gray-700 mb-4">
               Met vaste prijzen, duidelijke communicatie en professionele vakmannen staan wij altijd voor u klaar. Ons team bestaat uit ervaren specialisten die bekend zijn met de lokale bouwvoorschriften en werken volgens de hoogste kwaliteitsstandaarden.
@@ -89,7 +89,7 @@ export function OverOnsContent() {
       >
         <Link
           href="/offerte"
-          className="inline-block px-6 py-3 bg-indigo-600 text-white rounded-lg font-semibold hover:bg-indigo-700 transition-colors"
+          className="inline-block px-6 py-3 bg-brown-600 text-white rounded-lg font-semibold hover:bg-brown-700 transition-colors"
         >
           Gratis offerte aanvragen
         </Link>

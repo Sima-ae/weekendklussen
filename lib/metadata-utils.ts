@@ -17,11 +17,11 @@ export function generatePageMetadata(options: PageMetadataOptions): Metadata {
   // Base keywords that apply to all pages
   const baseKeywords = [
     'Weekend Klussen',
-    'aannemer',
+    'vaklieden',
     'bouwbedrijf',
     'Zuid-Holland',
     'gratis offerte',
-    'betrouwbare aannemer',
+    'betrouwbare vaklieden',
     'vaste prijzen',
     'garantie',
     'renovatie',
@@ -31,12 +31,12 @@ export function generatePageMetadata(options: PageMetadataOptions): Metadata {
   // Location-specific keywords
   const locationKeywords = location
     ? [
-        `${service || 'aannemer'} ${location}`,
-        `aannemer ${location}`,
+        `${service || 'vaklieden'} ${location}`,
+        `vaklieden ${location}`,
         `bouwbedrijf ${location}`,
-        `${service || 'aannemer'} in ${location}`,
+        `${service || 'vaklieden'} in ${location}`,
         location,
-        `${location} aannemer`,
+        `${location} vaklieden`,
       ]
     : [];
 
@@ -71,11 +71,11 @@ export function generatePageMetadata(options: PageMetadataOptions): Metadata {
   const path = locationSlug
     ? serviceSlug
       ? `${serviceSlug}-${locationSlug}`
-      : `aannemer-${locationSlug}`
+      : `vaklieden-${locationSlug}`
     : serviceSlug || '';
 
   const canonicalUrl = `https://weekend-klussen.nl/${path}`;
-  const ogTitle = `${title} | Weekend Klussen Aannemer Zuid-Holland`;
+  const ogTitle = `${title} | Weekend Klussen Vaklieden Zuid-Holland`;
   const ogDescription = description;
 
   return {
@@ -109,7 +109,7 @@ export function generatePageMetadata(options: PageMetadataOptions): Metadata {
           url: 'https://weekend-klussen.nl/images/Weblogo.png',
           width: 1200,
           height: 630,
-          alt: 'Weekend Klussen Aannemer Zuid-Holland',
+          alt: 'Weekend Klussen Vaklieden Zuid-Holland',
         },
       ],
     },
@@ -199,8 +199,8 @@ export function generateLocalBusinessSchema(
   service?: string
 ): object {
   const businessName = location
-    ? `Weekend Klussen Aannemer ${location}`
-    : 'Weekend Klussen Aannemer Zuid-Holland';
+    ? `Weekend Klussen Vaklieden ${location}`
+    : 'Weekend Klussen Vaklieden Zuid-Holland';
 
   return {
     '@context': 'https://schema.org',
@@ -210,7 +210,7 @@ export function generateLocalBusinessSchema(
     alternateName: 'Weekend Klussen',
     description: service
       ? `Professionele ${service} service in ${location || 'Zuid-Holland'}. Ervaren vakmannen met vaste prijzen en garantie.`
-      : 'Aannemer voor renovatie en verbouwing in Zuid-Holland en omgeving.',
+      : 'Vaklieden voor renovatie en verbouwing in Zuid-Holland en omgeving.',
     url: 'https://weekend-klussen.nl',
     telephone: '+31642502442',
     email: 'info@weekend-klussen.nl',

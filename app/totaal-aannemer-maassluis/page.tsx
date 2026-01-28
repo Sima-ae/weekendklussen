@@ -5,23 +5,23 @@ import { ServiceLocationContent } from '@/components/pages/ServiceLocationConten
 import { generatePageMetadata } from '@/lib/metadata-utils';
 
 export const metadata: Metadata = generatePageMetadata({
-  title: 'Totaal Aannemer Maassluis | Weekend Klussen Totaal Aannemer Maassluis',
-  description: 'Totaal aannemer voor complete bouw- en renovatieprojecten in Maassluis. Van ontwerp tot oplevering, alles uit één hand. Ervaren aannemer met vaste prijzen. Gratis offerte.',
+  title: 'Totaal Vaklieden Maassluis | Weekend Klussen Totaal Vaklieden Maassluis',
+  description: 'Totaal vaklieden voor complete bouw- en renovatieprojecten in Maassluis. Van ontwerp tot oplevering, alles uit één hand. Ervaren vaklieden met vaste prijzen. Gratis offerte.',
   location: 'Maassluis',
-  service: 'totaal aannemer',
-  keywords: ['totaal aannemer Maassluis', 'complete aannemer Maassluis', 'totaal aannemer service Maassluis', 'aannemer alles uit één hand Maassluis'],
+  service: 'totaal vaklieden',
+  keywords: ['totaal vaklieden Maassluis', 'complete vaklieden Maassluis', 'totaal vaklieden service Maassluis', 'vaklieden alles uit één hand Maassluis'],
 });
 
-export default function TotaalAannemerMaassluisPage() {
+export default function TotaalVakliedenMaassluisPage() {
   return (
     <main className="relative w-full flex-1 flex flex-col pt-14 sm:pt-16">
       <Header />
       <ServiceLocationContent
         location="Maassluis"
-        service="Totaal Aannemer"
-        title="Totaal Aannemer Maassluis"
-        description="Totaal aannemer voor complete bouw- en renovatieprojecten in Maassluis. Weekend Klussen verzorgt alles uit één hand: van ontwerp tot oplevering. Ervaren aannemer met vaste prijzen en garantie."
-        serviceDescription="Weekend Klussen is uw totaal aannemer in Maassluis. Wij verzorgen complete bouw- en renovatieprojecten van A tot Z in Maassluis. Van het eerste ontwerp tot de uiteindelijke oplevering - alles wordt door ons geregeld. Of u nu een complete woningverbouwing, totaalrenovatie, of nieuwbouw project heeft - wij staan voor u klaar in Maassluis."
+        service="Totaal Vaklieden"
+        title="Totaal Vaklieden Maassluis"
+        description="Totaal vaklieden voor complete bouw- en renovatieprojecten in Maassluis. Weekend Klussen verzorgt alles uit één hand: van ontwerp tot oplevering. Ervaren vaklieden met vaste prijzen en garantie."
+        serviceDescription="Weekend Klussen is uw totaal vaklieden in Maassluis. Wij verzorgen complete bouw- en renovatieprojecten van A tot Z in Maassluis. Van het eerste ontwerp tot de uiteindelijke oplevering - alles wordt door ons geregeld. Of u nu een complete woningverbouwing, totaalrenovatie, of nieuwbouw project heeft - wij staan voor u klaar in Maassluis."
         serviceDetails={[
           'Complete woningverbouwing en totaalrenovatie Maassluis',
           'Nieuwbouw projecten en uitbreidingen',
@@ -35,7 +35,7 @@ export default function TotaalAannemerMaassluisPage() {
         nearbyCities={['Rotterdam', 'Schiedam', 'Vlaardingen', 'Delft', 'Den Haag', 'Hoek van Holland']}
         serviceBenefits={[
           'Alles uit één hand, geen gedoe met meerdere partijen',
-          'Ervaren aannemer met jarenlange expertise',
+          'Ervaren vaklieden met jarenlange expertise',
           'Vaste prijzen zonder verrassingen',
           'Garantie op alle werkzaamheden',
           'Projectmanagement en bouwbegeleiding',

@@ -10,10 +10,10 @@
     --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --primary: 25 65% 22%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 50%;
+    --secondary-foreground: 0 0% 100%;
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
     --accent: 210 40% 96.1%;
@@ -67,6 +67,27 @@
     -ms-user-select: none;
     user-select: none;
     -webkit-touch-callout: none;
+  }
+  
+  /* Fix Tailwind preflight appearance warnings */
+  button,
+  input[type='button'],
+  input[type='reset'],
+  input[type='submit'] {
+    -webkit-appearance: button;
+    appearance: button;
+  }
+  
+  [type='search'] {
+    -webkit-appearance: textfield;
+    appearance: textfield;
+  }
+  
+  /* Fix vertical-align with display block */
+  embed,
+  object {
+    display: block;
+    /* vertical-align removed as it's invalid with display: block */
   }
   html {
     -webkit-text-size-adjust: 100%;
@@ -189,6 +210,7 @@
     .webgl-container {
       -webkit-touch-callout: none;
       -webkit-user-select: none;
+      user-select: none;
     }
   }
 
@@ -201,7 +223,7 @@
 
   /* Safari specific */
   @media not all and (min-resolution: 0.001dpcm) {
-    @supports (-webkit-appearance: none) {
+    @supports (-webkit-appearance: none) and (appearance: none) {
       .webgl-container {
         -webkit-transform: translateZ(0);
         transform: translateZ(0);

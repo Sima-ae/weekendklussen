@@ -6,25 +6,25 @@ import { StructuredData } from '@/components/StructuredData';
 import { generatePageMetadata, generateLocalBusinessSchema } from '@/lib/metadata-utils';
 
 export const metadata: Metadata = generatePageMetadata({
-  title: 'Aannemer Delft | Weekend Klussen Bouwbedrijf Delft – Verbouwing & Renovatie',
+  title: 'Vaklieden Delft | Weekend Klussen Bouwbedrijf Delft – Verbouwing & Renovatie',
   description:
-    'Betrouwbare aannemer in Delft. Weekend Klussen verzorgt verbouwing, renovatie, aanbouw, badkamer verbouwen en keukenrenovatie in Delft en omgeving. Vaste prijzen, garantie en snelle service. Gratis offerte. Ook actief in Den Haag, Rijswijk, Rotterdam, Pijnacker-Nootdorp en Zoetermeer.',
+    'Betrouwbare vaklieden in Delft. Weekend Klussen verzorgt verbouwing, renovatie, aanbouw, badkamer verbouwen en keukenrenovatie in Delft en omgeving. Vaste prijzen, garantie en snelle service. Gratis offerte. Ook actief in Den Haag, Rijswijk, Rotterdam, Pijnacker-Nootdorp en Zoetermeer.',
   location: 'Delft',
-  service: 'aannemer',
+  service: 'vaklieden',
   keywords: [
-    'aannemer Delft',
+    'vaklieden Delft',
     'bouwbedrijf Delft',
     'verbouwing Delft',
     'renovatie Delft',
     'aanbouw Delft',
     'badkamer verbouwen Delft',
     'keukenrenovatie Delft',
-    'aannemer Delft omgeving',
+    'vaklieden Delft omgeving',
   ],
 });
 
-export default function AannemerDelftPage() {
-  const structuredData = generateLocalBusinessSchema('Delft', 'aannemer');
+export default function VakliedenDelftPage() {
+  const structuredData = generateLocalBusinessSchema('Delft', 'vaklieden');
 
   return (
     <main className="relative w-full flex-1 flex flex-col pt-14 sm:pt-16">
@@ -32,8 +32,8 @@ export default function AannemerDelftPage() {
       <Header />
       <LocationContent
         location="Delft"
-        title="Aannemer Delft"
-        description="Weekend Klussen is uw betrouwbare aannemer in Delft. Wij verzorgen alle bouw- en renovatiewerkzaamheden in Delft en omgeving met vaste prijzen en garantie."
+        title="Vaklieden Delft"
+        description="Weekend Klussen is uw betrouwbare vaklieden in Delft. Wij verzorgen alle bouw- en renovatiewerkzaamheden in Delft en omgeving met vaste prijzen en garantie."
         nearbyCities={['Den Haag', 'Rijswijk', 'Rotterdam', 'Pijnacker-Nootdorp', 'Zoetermeer']}
       />
       <Footer />

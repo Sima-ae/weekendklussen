@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const navItems = [
   { name: 'Home', href: '/' },
@@ -69,15 +70,13 @@ export function Header() {
               className="inline-flex items-center hover:opacity-80 transition-opacity"
               aria-label="Weekend Klussen Home"
             >
-              <div 
-                className="h-8 sm:h-10"
-                style={{
-                  aspectRatio: '3/1',
-                  minWidth: '180px',
-                  WebkitMask: 'url(/images/Weblogo.png) no-repeat center / contain',
-                  mask: 'url(/images/Weblogo.png) no-repeat center / contain',
-                  backgroundColor: '#4F46E5',
-                }}
+              <Image
+                src="/images/Weblogo.png"
+                alt="Weekend Klussen"
+                width={180}
+                height={60}
+                className="h-8 sm:h-10 w-auto"
+                priority
               />
             </Link>
           </motion.div>
@@ -112,7 +111,7 @@ export function Header() {
                   >
                     <button
                       type="button"
-                      className="flex items-center gap-1 text-gray-700 hover:text-indigo-600 transition-colors font-medium text-[15px]"
+                      className="flex items-center gap-1 text-gray-700 hover:text-brown-600 transition-colors font-medium text-[15px]"
                       aria-expanded={
                         item.name === 'Diensten'
                           ? isDienstenDropdownOpen
@@ -148,7 +147,7 @@ export function Header() {
                               <Link
                                 key={dropdownItem.name}
                                 href={dropdownItem.href}
-                                className="block px-4 py-2.5 text-gray-700 hover:text-indigo-600 hover:bg-gray-50 transition-colors font-medium text-sm"
+                                className="block px-4 py-2.5 text-gray-700 hover:text-brown-600 hover:bg-gray-50 transition-colors font-medium text-sm"
                                 onClick={() => {
                                   if (item.name === 'Diensten') {
                                     setIsDienstenDropdownOpen(false);
@@ -168,7 +167,7 @@ export function Header() {
                 ) : (
                   <Link
                     href={item.href}
-                    className="text-gray-700 hover:text-indigo-600 transition-colors font-medium text-[15px]"
+                    className="text-gray-700 hover:text-brown-600 transition-colors font-medium text-[15px]"
                   >
                     {item.name}
                   </Link>
@@ -182,7 +181,7 @@ export function Header() {
             >
               <Link
                 href="/offerte"
-                className="inline-block px-4 py-2.5 sm:px-5 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors font-medium text-sm sm:text-base shadow-sm"
+                className="inline-block px-4 py-2.5 sm:px-5 bg-brown-600 text-white rounded-lg hover:bg-brown-700 transition-colors font-medium text-sm sm:text-base shadow-sm"
               >
                 Offerte aanvragen
               </Link>
@@ -229,7 +228,7 @@ export function Header() {
                               setIsDienstenDropdownOpen(false);
                             }
                           }}
-                          className="w-full flex items-center justify-between py-3 px-4 text-gray-700 hover:text-indigo-600 hover:bg-gray-50 font-medium rounded-lg transition-colors"
+                          className="w-full flex items-center justify-between py-3 px-4 text-gray-700 hover:text-brown-600 hover:bg-gray-50 font-medium rounded-lg transition-colors"
                         >
                           {item.name}
                           <ChevronDown
@@ -258,7 +257,7 @@ export function Header() {
                                     <Link
                                       key={dropdownItem.name}
                                       href={dropdownItem.href}
-                                      className="block py-2 px-2 text-gray-700 hover:text-indigo-600 font-medium rounded transition-colors text-sm"
+                                      className="block py-2 px-2 text-gray-700 hover:text-brown-600 font-medium rounded transition-colors text-sm"
                                       onClick={() => {
                                         if (item.name === 'Diensten') {
                                           setIsDienstenDropdownOpen(false);
@@ -280,7 +279,7 @@ export function Header() {
                     ) : (
                       <Link
                         href={item.href}
-                        className="block py-3 px-4 text-gray-700 hover:text-indigo-600 hover:bg-gray-50 font-medium rounded-lg transition-colors"
+                        className="block py-3 px-4 text-gray-700 hover:text-brown-600 hover:bg-gray-50 font-medium rounded-lg transition-colors"
                         onClick={() => setIsMenuOpen(false)}
                       >
                         {item.name}
@@ -291,7 +290,7 @@ export function Header() {
                 <div className="pt-2 px-4">
                   <Link
                     href="/offerte"
-                    className="block w-full py-3 text-center bg-indigo-600 text-white rounded-lg font-medium hover:bg-indigo-700 transition-colors"
+                    className="block w-full py-3 text-center bg-brown-600 text-white rounded-lg font-medium hover:bg-brown-700 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     Offerte aanvragen

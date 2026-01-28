@@ -51,7 +51,7 @@ All core pages now have:
 - `/over-ons` - Improved content and metadata
 - `/contact` - Enhanced metadata
 - `/offerte` - Full SEO optimization
-- `/aannemer-delft` - Using new metadata utilities
+- `/vaklieden-delft` - Using new metadata utilities
 
 ### 6. Content Quality Improvements
 - **DienstenContent.tsx**: Enhanced with more informative paragraphs

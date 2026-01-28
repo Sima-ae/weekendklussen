@@ -4,9 +4,9 @@ import { Footer } from '@/components/Footer';
 import { PrivacyContent } from '@/components/pages/PrivacyContent';
 
 export const metadata: Metadata = {
-  title: 'Privacyverklaring | Weekend Klussen Aannemer',
+  title: 'Privacyverklaring | Weekend Klussen Vaklieden',
   description:
-    'Aannemer voor renovatie en verbouwing in Zuid-Holland en omgeving. Privacyverklaring van Weekend Klussen. Informatie over hoe wij uw persoonsgegevens verzamelen, gebruiken en beschermen in overeenstemming met de AVG/GDPR.',
+    'Vaklieden voor renovatie en verbouwing in Zuid-Holland en omgeving. Privacyverklaring van Weekend Klussen. Informatie over hoe wij uw persoonsgegevens verzamelen, gebruiken en beschermen in overeenstemming met de AVG/GDPR.',
 };
 
 export default function PrivacyPage() {

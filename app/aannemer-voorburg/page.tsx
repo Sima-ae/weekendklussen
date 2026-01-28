@@ -4,19 +4,19 @@ import { Footer } from '@/components/Footer';
 import { LocationContent } from '@/components/pages/LocationContent';
 
 export const metadata: Metadata = {
-  title: 'Aannemer Voorburg | Weekend Klussen Bouwbedrijf Voorburg',
+  title: 'Vaklieden Voorburg | Weekend Klussen Bouwbedrijf Voorburg',
   description:
-    'Aannemer voor renovatie en verbouwing in Zuid-Holland en omgeving. Aannemer Voorburg - Weekend Klussen verzorgt verbouwing, renovatie, aanbouw, badkamer en keuken in Voorburg. Vaste prijzen, garantie en lokale kennis. Gratis offerte.',
+    'Vaklieden voor renovatie en verbouwing in Zuid-Holland en omgeving. Vaklieden Voorburg - Weekend Klussen verzorgt verbouwing, renovatie, aanbouw, badkamer en keuken in Voorburg. Vaste prijzen, garantie en lokale kennis. Gratis offerte.',
 };
 
-export default function AannemerVoorburgPage() {
+export default function VakliedenVoorburgPage() {
   return (
     <main className="relative w-full flex-1 flex flex-col pt-14 sm:pt-16">
       <Header />
       <LocationContent
         location="Voorburg"
-        title="Aannemer Voorburg"
-        description="Weekend Klussen is uw betrouwbare aannemer in Voorburg. Wij verzorgen alle bouw- en renovatiewerkzaamheden in Voorburg en omgeving."
+        title="Vaklieden Voorburg"
+        description="Weekend Klussen is uw betrouwbare vaklieden in Voorburg. Wij verzorgen alle bouw- en renovatiewerkzaamheden in Voorburg en omgeving."
         nearbyCities={['Den Haag', 'Rijswijk', 'Leiden', 'Zoetermeer', 'Pijnacker-Nootdorp']}
       />
       <Footer />

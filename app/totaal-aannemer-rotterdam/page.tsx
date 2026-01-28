@@ -5,23 +5,23 @@ import { ServiceLocationContent } from '@/components/pages/ServiceLocationConten
 import { generatePageMetadata } from '@/lib/metadata-utils';
 
 export const metadata: Metadata = generatePageMetadata({
-  title: 'Totaal Aannemer Rotterdam | Weekend Klussen Totaal Aannemer Rotterdam',
-  description: 'Totaal aannemer voor complete bouw- en renovatieprojecten in Rotterdam. Van ontwerp tot oplevering, alles uit één hand. Ervaren aannemer met vaste prijzen. Gratis offerte.',
+  title: 'Totaal Vaklieden Rotterdam | Weekend Klussen Totaal Vaklieden Rotterdam',
+  description: 'Totaal vaklieden voor complete bouw- en renovatieprojecten in Rotterdam. Van ontwerp tot oplevering, alles uit één hand. Ervaren vaklieden met vaste prijzen. Gratis offerte.',
   location: 'Rotterdam',
-  service: 'totaal aannemer',
-  keywords: ['totaal aannemer Rotterdam', 'complete aannemer Rotterdam', 'totaal aannemer service Rotterdam', 'aannemer alles uit één hand Rotterdam'],
+  service: 'totaal vaklieden',
+  keywords: ['totaal vaklieden Rotterdam', 'complete vaklieden Rotterdam', 'totaal vaklieden service Rotterdam', 'vaklieden alles uit één hand Rotterdam'],
 });
 
-export default function TotaalAannemerRotterdamPage() {
+export default function TotaalVakliedenRotterdamPage() {
   return (
     <main className="relative w-full flex-1 flex flex-col pt-14 sm:pt-16">
       <Header />
       <ServiceLocationContent
         location="Rotterdam"
-        service="Totaal Aannemer"
-        title="Totaal Aannemer Rotterdam"
-        description="Totaal aannemer voor complete bouw- en renovatieprojecten in Rotterdam. Weekend Klussen verzorgt alles uit één hand: van ontwerp tot oplevering. Ervaren aannemer met vaste prijzen en garantie."
-        serviceDescription="Weekend Klussen is uw totaal aannemer in Rotterdam. Wij verzorgen complete bouw- en renovatieprojecten van A tot Z in Rotterdam. Van het eerste ontwerp tot de uiteindelijke oplevering - alles wordt door ons geregeld. Of u nu een complete woningverbouwing, totaalrenovatie, of nieuwbouw project heeft - wij staan voor u klaar in Rotterdam."
+        service="Totaal Vaklieden"
+        title="Totaal Vaklieden Rotterdam"
+        description="Totaal vaklieden voor complete bouw- en renovatieprojecten in Rotterdam. Weekend Klussen verzorgt alles uit één hand: van ontwerp tot oplevering. Ervaren vaklieden met vaste prijzen en garantie."
+        serviceDescription="Weekend Klussen is uw totaal vaklieden in Rotterdam. Wij verzorgen complete bouw- en renovatieprojecten van A tot Z in Rotterdam. Van het eerste ontwerp tot de uiteindelijke oplevering - alles wordt door ons geregeld. Of u nu een complete woningverbouwing, totaalrenovatie, of nieuwbouw project heeft - wij staan voor u klaar in Rotterdam."
         serviceDetails={[
           'Complete woningverbouwing en totaalrenovatie Rotterdam',
           'Nieuwbouw projecten en uitbreidingen',
@@ -35,7 +35,7 @@ export default function TotaalAannemerRotterdamPage() {
         nearbyCities={['Schiedam', 'Vlaardingen', 'Maassluis', 'Delft', 'Den Haag', 'Capelle aan den IJssel', 'Ridderkerk']}
         serviceBenefits={[
           'Alles uit één hand, geen gedoe met meerdere partijen',
-          'Ervaren aannemer met jarenlange expertise',
+          'Ervaren vaklieden met jarenlange expertise',
           'Vaste prijzen zonder verrassingen',
           'Garantie op alle werkzaamheden',
           'Projectmanagement en bouwbegeleiding',

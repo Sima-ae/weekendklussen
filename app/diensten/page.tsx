@@ -6,11 +6,11 @@ import { StructuredData } from '@/components/StructuredData';
 import { generateLocalBusinessSchema } from '@/lib/metadata-utils';
 
 export const metadata: Metadata = {
-  title: 'Diensten – Verbouwing, Renovatie, Aanbouw | Weekend Klussen Aannemer Zuid-Holland',
+  title: 'Diensten – Verbouwing, Renovatie, Aanbouw | Weekend Klussen Vaklieden Zuid-Holland',
   description:
-    'Complete overzicht van alle diensten van Weekend Klussen, aannemer in Zuid-Holland. Badkamer verbouwen, keukenrenovatie, aanbouw, uitbouw, dakkapel plaatsen, woningverbouwing, renovatie en meer. Professionele uitvoering met vaste prijzen en garantie. Gratis offerte aanvragen.',
+    'Complete overzicht van alle diensten van Weekend Klussen, vaklieden in Zuid-Holland. Badkamer verbouwen, keukenrenovatie, aanbouw, uitbouw, dakkapel plaatsen, woningverbouwing, renovatie en meer. Professionele uitvoering met vaste prijzen en garantie. Gratis offerte aanvragen.',
   keywords: [
-    'diensten aannemer',
+    'diensten vaklieden',
     'badkamer verbouwen',
     'keukenrenovatie',
     'aanbouw',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     'renovatie',
     'verbouwing',
     'woningverbouwing',
-    'aannemer diensten',
+    'vaklieden diensten',
     'bouwbedrijf diensten',
     'Zuid-Holland',
     'gratis offerte',
@@ -32,9 +32,9 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'nl_NL',
     url: 'https://weekend-klussen.nl/diensten',
-    title: 'Diensten – Verbouwing, Renovatie, Aanbouw | Weekend Klussen Aannemer',
+    title: 'Diensten – Verbouwing, Renovatie, Aanbouw | Weekend Klussen Vaklieden',
     description:
-      'Complete overzicht van alle diensten van Weekend Klussen, aannemer in Zuid-Holland. Badkamer verbouwen, keukenrenovatie, aanbouw, uitbouw, dakkapel plaatsen, renovatie. Gratis offerte.',
+      'Complete overzicht van alle diensten van Weekend Klussen, vaklieden in Zuid-Holland. Badkamer verbouwen, keukenrenovatie, aanbouw, uitbouw, dakkapel plaatsen, renovatie. Gratis offerte.',
     siteName: 'Weekend Klussen',
     images: [
       {
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Diensten – Weekend Klussen Aannemer',
+    title: 'Diensten – Weekend Klussen Vaklieden',
     description:
       'Complete overzicht van alle diensten: badkamer verbouwen, keukenrenovatie, aanbouw, renovatie en meer.',
     images: ['https://weekend-klussen.nl/images/Weblogo.png'],

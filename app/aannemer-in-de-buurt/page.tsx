@@ -4,19 +4,19 @@ import { Footer } from '@/components/Footer';
 import { LocationContent } from '@/components/pages/LocationContent';
 
 export const metadata: Metadata = {
-  title: 'Aannemer in de Buurt | Weekend Klussen Bouwbedrijf Zuid-Holland',
+  title: 'Vaklieden in de Buurt | Weekend Klussen Bouwbedrijf Zuid-Holland',
   description:
-    'Aannemer voor renovatie en verbouwing in Zuid-Holland en omgeving. Zoekt u een aannemer in de buurt? Weekend Klussen is actief in heel Zuid-Holland. Verbouwing, renovatie, aanbouw, badkamer en keuken. Vaste prijzen, garantie en lokale kennis. Gratis offerte.',
+    'Vaklieden voor renovatie en verbouwing in Zuid-Holland en omgeving. Zoekt u een vaklieden in de buurt? Weekend Klussen is actief in heel Zuid-Holland. Verbouwing, renovatie, aanbouw, badkamer en keuken. Vaste prijzen, garantie en lokale kennis. Gratis offerte.',
 };
 
-export default function AannemerInDeBuurtPage() {
+export default function VakliedenInDeBuurtPage() {
   return (
     <main className="relative w-full flex-1 flex flex-col pt-14 sm:pt-16">
       <Header />
       <LocationContent
         location="de buurt"
-        title="Aannemer in de Buurt"
-        description="Zoekt u een betrouwbare aannemer in de buurt? Weekend Klussen is actief in heel Zuid-Holland en verzorgt alle bouw- en renovatiewerkzaamheden bij u in de buurt. Met jarenlange ervaring en lokale kennis staan wij voor u klaar."
+        title="Vaklieden in de Buurt"
+        description="Zoekt u een betrouwbare vaklieden in de buurt? Weekend Klussen is actief in heel Zuid-Holland en verzorgt alle bouw- en renovatiewerkzaamheden bij u in de buurt. Met jarenlange ervaring en lokale kennis staan wij voor u klaar."
         nearbyCities={[
           'Rotterdam', 'Den Haag', 'Leiden', 'Dordrecht', 'Gouda', 'Delft', 
           'Zoetermeer', 'Schiedam', 'Vlaardingen', 'Westland', 'Rijswijk',

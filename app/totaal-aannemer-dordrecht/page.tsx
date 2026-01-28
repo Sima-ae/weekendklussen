@@ -5,23 +5,23 @@ import { ServiceLocationContent } from '@/components/pages/ServiceLocationConten
 import { generatePageMetadata } from '@/lib/metadata-utils';
 
 export const metadata: Metadata = generatePageMetadata({
-  title: 'Totaal Aannemer Dordrecht | Weekend Klussen Totaal Aannemer Dordrecht',
-  description: 'Totaal aannemer voor complete bouw- en renovatieprojecten in Dordrecht. Van ontwerp tot oplevering, alles uit één hand. Ervaren aannemer met vaste prijzen. Gratis offerte.',
+  title: 'Totaal Vaklieden Dordrecht | Weekend Klussen Totaal Vaklieden Dordrecht',
+  description: 'Totaal vaklieden voor complete bouw- en renovatieprojecten in Dordrecht. Van ontwerp tot oplevering, alles uit één hand. Ervaren vaklieden met vaste prijzen. Gratis offerte.',
   location: 'Dordrecht',
-  service: 'totaal aannemer',
-  keywords: ['totaal aannemer Dordrecht', 'complete aannemer Dordrecht', 'totaal aannemer service Dordrecht', 'aannemer alles uit één hand Dordrecht'],
+  service: 'totaal vaklieden',
+  keywords: ['totaal vaklieden Dordrecht', 'complete vaklieden Dordrecht', 'totaal vaklieden service Dordrecht', 'vaklieden alles uit één hand Dordrecht'],
 });
 
-export default function TotaalAannemerDordrechtPage() {
+export default function TotaalVakliedenDordrechtPage() {
   return (
     <main className="relative w-full flex-1 flex flex-col pt-14 sm:pt-16">
       <Header />
       <ServiceLocationContent
         location="Dordrecht"
-        service="Totaal Aannemer"
-        title="Totaal Aannemer Dordrecht"
-        description="Totaal aannemer voor complete bouw- en renovatieprojecten in Dordrecht. Weekend Klussen verzorgt alles uit één hand: van ontwerp tot oplevering. Ervaren aannemer met vaste prijzen en garantie."
-        serviceDescription="Weekend Klussen is uw totaal aannemer in Dordrecht. Wij verzorgen complete bouw- en renovatieprojecten van A tot Z in Dordrecht. Van het eerste ontwerp tot de uiteindelijke oplevering - alles wordt door ons geregeld. Of u nu een complete woningverbouwing, totaalrenovatie, of nieuwbouw project heeft - wij staan voor u klaar in Dordrecht."
+        service="Totaal Vaklieden"
+        title="Totaal Vaklieden Dordrecht"
+        description="Totaal vaklieden voor complete bouw- en renovatieprojecten in Dordrecht. Weekend Klussen verzorgt alles uit één hand: van ontwerp tot oplevering. Ervaren vaklieden met vaste prijzen en garantie."
+        serviceDescription="Weekend Klussen is uw totaal vaklieden in Dordrecht. Wij verzorgen complete bouw- en renovatieprojecten van A tot Z in Dordrecht. Van het eerste ontwerp tot de uiteindelijke oplevering - alles wordt door ons geregeld. Of u nu een complete woningverbouwing, totaalrenovatie, of nieuwbouw project heeft - wij staan voor u klaar in Dordrecht."
         serviceDetails={[
           'Complete woningverbouwing en totaalrenovatie Dordrecht',
           'Nieuwbouw projecten en uitbreidingen',
@@ -35,7 +35,7 @@ export default function TotaalAannemerDordrechtPage() {
         nearbyCities={['Rotterdam', 'Schiedam', 'Gouda', 'Zwijndrecht', 'Papendrecht', 'Sliedrecht']}
         serviceBenefits={[
           'Alles uit één hand, geen gedoe met meerdere partijen',
-          'Ervaren aannemer met jarenlange expertise',
+          'Ervaren vaklieden met jarenlange expertise',
           'Vaste prijzen zonder verrassingen',
           'Garantie op alle werkzaamheden',
           'Projectmanagement en bouwbegeleiding',
