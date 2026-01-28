@@ -1,0 +1,121 @@
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import Script from 'next/script';
+import './globals.css';
+import { ProtectionOverlay } from '@/components/ProtectionOverlay';
+
+const inter = Inter({ subsets: ['latin'] });
+
+export const metadata: Metadata = {
+  title: {
+    default: 'Weekend Klussen – Aannemer voor renovatie en verbouwing in Zuid-Holland en omgeving',
+    template: '%s | Weekend Klussen Aannemer',
+  },
+  description:
+    'Aannemer voor renovatie en verbouwing in Zuid-Holland en omgeving. Weekend Klussen is uw bouwbedrijf en aannemer in Zuid-Holland. Verbouwing, woningverbouwing, badkamer verbouwen, aanbouw, renovatie. Gratis offerte aanvragen. Werkgebied o.a. Rotterdam, Den Haag, Leiden, Dordrecht, Gouda, Delft, Schiedam, Vlaardingen, Westland, Rijswijk, Capelle aan den IJssel, Spijkenisse, Katwijk, Voorburg, Pijnacker-Nootdorp, Barendrecht, Ridderkerk en overige steden in Zuid-Holland.',
+  keywords: [
+    'aannemer',
+    'aannemer nodig',
+    'verbouwing',
+    'verbouwen',
+    'bouwbedrijf',
+    'renovatie',
+    'klusbedrijf',
+    'aanbouw',
+    'woningverbouwing',
+    'badkamer verbouwen',
+    'aannemer Zuid-Holland',
+    'aannemer Rotterdam',
+    'aannemer Den Haag',
+    'aannemer Leiden',
+    'aannemer Dordrecht',
+    'aannemer Gouda',
+    'aannemer Delft',
+    'gratis offerte',
+    'betrouwbare aannemer',
+    'verbouwing kosten',
+    'bouw aannemer',
+  ],
+  authors: [{ name: 'Weekend Klussen' }],
+  icons: {
+    icon: '/images/Weblogo.png',
+    apple: '/images/Weblogo.png',
+    shortcut: '/images/Weblogo.png',
+  },
+  openGraph: {
+    title: 'Weekend Klussen – Betrouwbare aannemer | Verbouwing & Renovatie Zuid-Holland',
+    description: 'Aannemer voor renovatie en verbouwing in Zuid-Holland en omgeving. Verbouwing, renovatie, aanbouw, badkamer verbouwen. Gratis offerte. Aannemer in Rotterdam, Den Haag, Leiden en regio.',
+    type: 'website',
+    images: [
+      {
+        url: '/images/Weblogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Weekend Klussen Aannemer Zuid-Holland',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/images/Weblogo.png'],
+  },
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+  userScalable: true,
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="nl" suppressHydrationWarning className="h-full">
+      <body className={`${inter.className} min-h-screen flex flex-col w-full antialiased`}>
+        {/* Google tag (gtag.js) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-EF1H4JJR37"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-EF1H4JJR37');
+          `}
+        </Script>
+        {/* Meta Pixel - Replace "000" with your actual Pixel ID */}
+        <Script id="meta-pixel" strategy="afterInteractive">
+          {`
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '000');
+            fbq('track', 'PageView');
+          `}
+        </Script>
+        <noscript>
+          <img
+            height="1"
+            width="1"
+            style={{ display: 'none' }}
+            src="https://www.facebook.com/tr?id=000&ev=PageView&noscript=1"
+            alt=""
+          />
+        </noscript>
+        <ProtectionOverlay />
+        <div className="flex-1 flex flex-col w-full min-h-0">{children}</div>
+      </body>
+    </html>
+  );
+}
