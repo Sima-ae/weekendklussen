@@ -293,7 +293,7 @@ export function PriceCalculator() {
             {calculateTotal() > 0 && (
               <div className="space-y-4">
                 <Link
-                  href={`https://wa.me/31103112884?text=${generateWhatsAppMessage()}`}
+                  href={`https://wa.me/31687999505?text=${generateWhatsAppMessage()}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex w-full items-center justify-center gap-2 bg-white text-brown-600 rounded-lg font-semibold py-3 px-6 hover:bg-gray-100 transition-colors"
