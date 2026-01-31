@@ -1,0 +1,25 @@
+{
+    "name": "Weekend Klussen",
+    "short_name": "Weekend Klussen",
+    "description": "Vaklieden voor renovatie en verbouwing in Zuid-Holland.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#2563eb",
+    "icons": [
+        {
+            "src": "/images/favicon.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/images/favicon.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "orientation": "portrait",
+    "scope": "/"
+}

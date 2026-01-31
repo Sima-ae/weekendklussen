@@ -4,10 +4,12 @@ import Script from 'next/script';
 import './globals.css';
 import { ProtectionOverlay } from '@/components/ProtectionOverlay';
 import { WhatsAppWidget } from '@/components/WhatsAppWidget';
+import { PWAInstallPrompt } from '@/components/PWAInstallPrompt';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
+  themeColor: '#2563eb', // blue-600 to match the app's primary color
   title: {
     default: 'Weekend Klussen – Vaklieden voor renovatie en verbouwing in Zuid-Holland en omgeving',
     template: '%s | Weekend Klussen Vaklieden',
@@ -70,6 +72,15 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     images: ['/images/Weblogo.png'],
   },
+  manifest: '/manifest.json',
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: 'Weekend Klussen',
+  },
+  formatDetection: {
+    telephone: false,
+  },
 };
 
 export const viewport = {
@@ -100,6 +111,22 @@ export default function RootLayout({
             gtag('config', 'G-EF1H4JJR37');
           `}
         </Script>
+        <Script id="register-sw" strategy="afterInteractive">
+          {`
+            if ('serviceWorker' in navigator) {
+              window.addEventListener('load', function() {
+                navigator.serviceWorker.register('/sw.js').then(
+                  function(registration) {
+                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                  },
+                  function(err) {
+                    console.log('ServiceWorker registration failed: ', err);
+                  }
+                );
+              });
+            }
+          `}
+        </Script>
         {/* Meta Pixel - Replace "000" with your actual Pixel ID */}
         <Script id="meta-pixel" strategy="afterInteractive">
           {`
@@ -127,6 +154,7 @@ export default function RootLayout({
         <ProtectionOverlay />
         <div className="flex-1 flex flex-col w-full min-h-0">{children}</div>
         <WhatsAppWidget />
+        <PWAInstallPrompt />
       </body>
     </html>
   );
