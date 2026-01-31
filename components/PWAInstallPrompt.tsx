@@ -107,11 +107,16 @@ export function PWAInstallPrompt() {
                 <div className="bg-white/95 backdrop-blur-xl border border-amber-100 shadow-[0_20px_50px_rgba(0,0,0,0.15)] rounded-3xl overflow-hidden p-6 flex flex-col gap-4 text-gray-900 ring-1 ring-black/5">
                     <div className="flex justify-between items-start">
                         <div className="flex items-center gap-4">
-                            <div className="w-14 h-14 bg-gradient-to-br from-[#5f3813] to-[#3e2723] rounded-2xl flex items-center justify-center shadow-lg shadow-amber-900/10 overflow-hidden">
-                                <img src="/images/favicon.png" alt="App Icon" className="w-10 h-10 object-contain" />
+                            <div className="w-14 h-14 bg-[#5f3813] rounded-2xl flex items-center justify-center shadow-lg shadow-amber-900/10 overflow-hidden">
+                                <img
+                                    src="/images/favicon.png"
+                                    alt="App Icon"
+                                    className="w-10 h-10 object-contain"
+                                    style={{ filter: 'brightness(0) invert(1)' }}
+                                />
                             </div>
                             <div>
-                                <h3 className="font-bold text-xl leading-tight text-[#3e2723]">Weekend Klussen</h3>
+                                <h3 className="font-bold text-xl leading-tight text-[#5f3813]">Weekend Klussen</h3>
                                 <p className="text-sm text-gray-500">Installeer onze App</p>
                             </div>
                         </div>
@@ -126,8 +131,8 @@ export function PWAInstallPrompt() {
 
                     <div className="space-y-3">
                         {isIOS ? (
-                            <div className="bg-[#4a2b0f]/5 rounded-2xl p-4 border border-[#4a2b0f]/10">
-                                <p className="text-sm text-[#4a2b0f] font-medium mb-3">Installatie op iPhone/iPad:</p>
+                            <div className="bg-[#5f3813]/5 rounded-2xl p-4 border border-[#5f3813]/10">
+                                <p className="text-sm text-[#5f3813] font-medium mb-3">Installatie op iPhone/iPad:</p>
                                 <ol className="text-xs text-[#5f3813] space-y-2 list-decimal ml-4">
                                     <li>Tik op de <strong>Deel-knop</strong> (vierkant met pijltje omhoog) onderaan.</li>
                                     <li>Scroll omlaag en tik op <strong>Zet op beginscherm</strong>.</li>
@@ -137,13 +142,13 @@ export function PWAInstallPrompt() {
                         ) : (
                             <div className="flex flex-col gap-2.5">
                                 <div className="flex items-center gap-3 text-sm text-gray-600 font-medium px-1">
-                                    <div className="w-6 h-6 rounded-full bg-[#4a2b0f]/5 flex items-center justify-center">
+                                    <div className="w-6 h-6 rounded-full bg-[#5f3813]/5 flex items-center justify-center">
                                         <Smartphone size={14} className="text-[#5f3813]" />
                                     </div>
                                     <span>Snelle toegang vanaf uw beginscherm</span>
                                 </div>
                                 <div className="flex items-center gap-3 text-sm text-gray-600 font-medium px-1">
-                                    <div className="w-6 h-6 rounded-full bg-[#4a2b0f]/5 flex items-center justify-center">
+                                    <div className="w-6 h-6 rounded-full bg-[#5f3813]/5 flex items-center justify-center">
                                         <Monitor size={14} className="text-[#5f3813]" />
                                     </div>
                                     <span>Offline functies en snellere laadtijd</span>
@@ -155,7 +160,7 @@ export function PWAInstallPrompt() {
                     {!isIOS && (
                         <button
                             onClick={handleInstallClick}
-                            className="w-full bg-[#4a2b0f] hover:bg-[#3e2723] active:scale-[0.98] text-white font-bold py-4 px-6 rounded-2xl transition-all shadow-lg shadow-amber-900/10 flex items-center justify-center gap-2 group"
+                            className="w-full bg-[#5f3813] hover:bg-[#4a2b0f] active:scale-[0.98] text-white font-bold py-4 px-6 rounded-2xl transition-all shadow-lg shadow-amber-900/10 flex items-center justify-center gap-2 group"
                         >
                             <Download size={20} className="group-hover:translate-y-0.5 transition-transform" />
                             <span>Nu Installeren</span>
