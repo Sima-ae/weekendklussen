@@ -1,4 +1,5 @@
 {
+    "id": "/",
     "name": "Weekend Klussen",
     "short_name": "Weekend Klussen",
     "description": "Vaklieden voor renovatie en verbouwing in Zuid-Holland.",
@@ -20,6 +21,19 @@
             "purpose": "any maskable"
         }
     ],
-    "orientation": "portrait",
-    "scope": "/"
+    "orientation": "any",
+    "scope": "/",
+    "lang": "nl",
+    "dir": "ltr",
+    "categories": [
+        "lifestyle",
+        "utilities"
+    ],
+    "shortcuts": [
+        {
+            "name": "Offerte Aanvragen",
+            "url": "/",
+            "description": "Direct een gratis offerte aanvragen"
+        }
+    ]
 }

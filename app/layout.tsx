@@ -9,7 +9,19 @@ import { PWAInstallPrompt } from '@/components/PWAInstallPrompt';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  themeColor: '#2563eb', // blue-600 to match the app's primary color
+  applicationName: 'Weekend Klussen',
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: 'Weekend Klussen',
+  },
+  formatDetection: {
+    telephone: false,
+  },
+  other: {
+    'mobile-web-app-capable': 'yes',
+    'apple-mobile-web-app-capable': 'yes',
+  },
   title: {
     default: 'Weekend Klussen – Vaklieden voor renovatie en verbouwing in Zuid-Holland en omgeving',
     template: '%s | Weekend Klussen Vaklieden',
@@ -48,10 +60,10 @@ export const metadata: Metadata = {
       },
     ],
     apple: [
-      {
-        url: '/images/favicon.png',
-        type: 'image/png',
-      },
+      { url: '/images/favicon.png', sizes: '192x192', type: 'image/png' },
+      { url: '/images/favicon.png', sizes: '152x152', type: 'image/png' },
+      { url: '/images/favicon.png', sizes: '167x167', type: 'image/png' },
+      { url: '/images/favicon.png', sizes: '180x180', type: 'image/png' },
     ],
     shortcut: '/images/favicon.png',
   },
@@ -73,14 +85,6 @@ export const metadata: Metadata = {
     images: ['/images/Weblogo.png'],
   },
   manifest: '/manifest.json',
-  appleWebApp: {
-    capable: true,
-    statusBarStyle: 'default',
-    title: 'Weekend Klussen',
-  },
-  formatDetection: {
-    telephone: false,
-  },
 };
 
 export const viewport = {
@@ -88,6 +92,8 @@ export const viewport = {
   initialScale: 1,
   maximumScale: 5,
   userScalable: true,
+  themeColor: '#2563eb',
+  viewportFit: 'cover',
 };
 
 export default function RootLayout({
